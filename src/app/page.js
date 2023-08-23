@@ -1,95 +1,143 @@
+
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from '@styles/home.css'
+import bg from '@assets/img_hero_overlay.png'
+import { RendererResearch } from '@components/research/rendererResearch'
+import { RendererNews } from '@components/news/rendererNews'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <section className="hero" style={{
+        //pake back-quote ` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+        backgroundImage: `url(${bg.src})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'top',
+        backgroundSize: 'cover'
+      }}>
+        <div className='logo-ubicon-container'>
+          <div className='logo-ubicon'>
+            <Image 
+            src="/logo512.png"
+            // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+            width = {80}
+            height = {80}
+            alt='Logo UBICON'
+              ></Image>
+          </div>
+
         </div>
+        
+        <h1>Ubicon Lab</h1>
+        <h2>Ubiquitous Computing & Networking Lab.</h2>
+        <p>@HASANUDDIN UNIVERSITY </p>
+      </section>
+
+      <div className="carousel-running-container">
+        {/* infinite slider, duplikat supaya seamless */}
+        <ul>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+          <li>
+            <div className="carousel-img"></div>
+          </li>
+        </ul>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <section className="research-type">
+        <h1>Connecting Devices with Our Research</h1>
+        <p className="p1">
+          Our lab have multiple concentration that surrounds internet
+          engineering
+        </p>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <ul className="list-research-wrapper">
+          <RendererResearch />
+        </ul>
+      </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      <section className="our-people">
+        <div className="our-people-container">
+          <h1>Our People</h1>
+          <button >
+            <p>Read more</p>
+          </button>
+        </div>
+        <div className="preview-img-wrapper">
+          <div className="preview-img" id="ubicon-1"></div>
+          <div className="preview-img" id="ubicon-2"></div>
+          <div className="preview-img" id="head-of-ubicon"></div>
+          <div className="preview-img" id="ubicon-3"></div>
+          <div className="preview-img" id="ubicon-4"></div>
+        </div>
+      </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <section className="news-section">
+        <div className="news-header">
+          <div className="news-header-left">
+            <h1>What's Up?</h1>
+            <p className="p1">
+              Read our latest news and stories in our blog!
+            </p>  
+          </div>
+          
+          <button>
+            <p>Read more</p>
+          </button>
+        </div>
+        <div className="news-content-container">
+          {/* TODO: bikinkan renderer function untuk newsnya, usahakan pake fetch API */}
+          <ul className="news-content-renderer">
+            <RendererNews/>
+          </ul>
+        </div>
+      </section>
+    </div>
   )
 }
