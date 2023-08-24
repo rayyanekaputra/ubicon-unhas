@@ -1,5 +1,4 @@
 
-
 export const DataNewsList = [
     {
       id: 0, // Used in JSX as a key

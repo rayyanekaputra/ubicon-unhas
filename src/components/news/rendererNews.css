@@ -22,16 +22,31 @@ li.news-content-list {
   width: 384px;
   align-items: flex-start;
   gap: 24px;
+  
+  
+  
 }
-li.news-content-list img {
+/* li.news-content-list img{
   width: 100%;
+  position: absolute;
+
+} */
+li.news-content-list div.img-news-container{
+  height: 180px;
+  width: 384px;
   border-radius: 16px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+ 
 }
+
 li.news-content-list div.news-content {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  
 }
 li.news-content-list div.news-content h1 {
   color: #242424;
