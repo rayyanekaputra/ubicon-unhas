@@ -7,6 +7,13 @@ import { RendererResearch } from "@components/research/rendererResearch";
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 import RendererNews  from "@components/news/rendererNews";
 
+//Foto-foto preview
+import previewBuNovy from "@assets/profil/profil bu novy.png"
+import previewPakKiki from "@assets/profil/profil pak kiki.png"
+import previewPakNiswar from "@assets/profil/profil pak niswar.png"
+import previewPakAdy from "@assets/profil/profil pak ady.png"
+import previewBuElly from "@assets/profil/profil bu elly.png"
+
 export default function Home() {
   return (
     <div>
@@ -117,11 +124,29 @@ export default function Home() {
           </button>
         </div>
         <div className="preview-img-wrapper">
-          <div className="preview-img" id="ubicon-1"></div>
-          <div className="preview-img" id="ubicon-2"></div>
-          <div className="preview-img" id="head-of-ubicon"></div>
-          <div className="preview-img" id="ubicon-3"></div>
-          <div className="preview-img" id="ubicon-4"></div>
+          <div className="preview-img" id="ubicon-1">
+            
+            {/* size gambar ada di home.css karena import static di atas:
+            section.our-people .preview-img-wrapper img*/}
+            <Image src={previewBuNovy}
+            alt="bu novy"/>
+          </div>
+          <div className="preview-img" id="ubicon-2">
+          <Image src={previewPakKiki}
+            alt="pak kiki"/>
+          </div>
+          <div className="preview-img" id="head-of-ubicon">
+          <Image src={previewPakNiswar}
+            alt="pak niswar"/>
+          </div>
+          <div className="preview-img" id="ubicon-3">
+          <Image src={previewPakAdy}
+            alt="pak ady"/>
+          </div>
+          <div className="preview-img" id="ubicon-4">
+          <Image src={previewBuElly}
+            alt="bu elly"/>
+          </div>
         </div>
       </section>
 
@@ -147,18 +172,21 @@ export default function Home() {
 
       <section className="contact-us-section">
         <p>Are you a student of Informatics UNHAS?</p>
-        <div className="contact-us-container" style={{
-          //pake back-quote ` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-          backgroundImage: `url(${bg_cta.src})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "top",
-          backgroundSize: "cover",
-        }}>
-          <h1>Join and explore the cloud with us</h1>
-            <button>
-              <p>Contact Us</p>
-            </button>
+        <div className='contact-us-container-container'>
+          <div className="contact-us-container" style={{
+            //pake back-quote ` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+            backgroundImage: `url(${bg_cta.src})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "top",
+            backgroundSize: "cover",
+          }}>
+            <h1>Join and explore the cloud with us</h1>
+              <button>
+                <p>Contact Us</p>
+              </button>
+          </div>
         </div>
+        
       </section>
     </div>
   );

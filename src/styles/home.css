@@ -166,6 +166,7 @@ section.research-type ul {
 
 section.our-people {
   width: 100%;
+  padding: 0px 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,7 +176,8 @@ section.our-people {
 }
 section.our-people .our-people-container {
   height: 512px;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +194,13 @@ section.our-people .preview-img-wrapper {
   margin-top: -140px;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
+
+section.our-people .preview-img-wrapper img{
+  height: 100%;
+}
+
 section.our-people .preview-img-wrapper #head-of-ubicon {
   z-index: 2;
   margin: 40px -40px 0px;
@@ -200,7 +208,10 @@ section.our-people .preview-img-wrapper #head-of-ubicon {
 section.our-people .preview-img-wrapper #ubicon-1, section.our-people .preview-img-wrapper #ubicon-2 {
   transform: rotate(-9.27deg);
   margin: 0px -10px 0px;
+
 }
+
+
 section.our-people .preview-img-wrapper #ubicon-3, section.our-people .preview-img-wrapper #ubicon-4 {
   transform: rotate(9.27deg);
   margin: 0px -10px 0px;
@@ -214,11 +225,11 @@ section.our-people .preview-img-wrapper #ubicon-4 {
 section.our-people .preview-img-wrapper .preview-img {
   position: relative;
   display: flex;
-  background: blue;
+  background: white;
   width: 304px;
   height: 368px;
   border-radius: 16px;
-  box-shadow: 0 0 24px -8px black;
+  box-shadow: 0 0 24px -8px rgba(0, 0, 0, 0.3);
 }
 
 section.news-section {
@@ -266,10 +277,13 @@ section.news-section ul.news-content-renderer::-webkit-scrollbar {
 section.contact-us-section{
 
   justify-content: center;
+  width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 48px;
-  padding-bottom: 120px;
+  padding: 0px 120px 120px;
+  position: relative;
+
 
 }
 
@@ -289,17 +303,25 @@ section.contact-us-section h1{
 
 }
 
+section div.contact-us-container-container {
+  /* FIX: CTA tidak bisa ditengah  */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 section.contact-us-section div.contact-us-container {
 
-  margin: 0px 120px;
+  min-width: 1200px;
+  width: 100%;
   height: 432px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  background: #242424;
+  background-color: #242424;
   row-gap: 52px;
+  position: relative;
 
 }
 
