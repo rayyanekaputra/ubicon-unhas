@@ -1,5 +1,5 @@
 import { DataResearchList } from "@data/research/dataResearch";
-import "@components/research/rendererResearch.css";
+import "@styles/research/rendererResearch.css";
 
 //CARI: apa bedanya export default vs export biasa?
 export function RendererResearch() {

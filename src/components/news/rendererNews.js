@@ -1,11 +1,12 @@
 'use client'
 import React from "react";
 import { DataNewsList } from "@data/news/dataNews";
-import "@components/news/rendererNews.css";
+import "@styles/news/rendererNews.css";
+
 import Image from "next/image";
 
-export function RendererNews() {
-  const rendererNews = DataNewsList.map((news) => (
+export default function RendererNews() {
+  const rendererNews = DataNewsList.map ((news) => (
     <li key={news.id} className="news-content-list">
       <div className="img-news-container"> 
         <Image 
@@ -14,7 +15,7 @@ export function RendererNews() {
         />
         
       </div>
-      <div className="news-content">
+      <div className="news-content"> 
         <h1>{news.title_posted}</h1>
         <p className="date_p">{news.date_posted}</p>
         <div className="truncate_brief">
