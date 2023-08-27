@@ -3,7 +3,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body {
@@ -12,4 +11,18 @@ body {
   display: flex;
   flex-direction: column;
   color: #242424;
-}/*# sourceMappingURL=global-styles.css.map */
+}
+
+li.list-research-field-item {
+  background-color: #ECE5FF;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+li.list-research-field-item p {
+  color: #774AF7;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}/*# sourceMappingURL=rendererResearch.css.map */

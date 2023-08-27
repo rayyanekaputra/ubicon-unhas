@@ -1,0 +1,72 @@
+//import global sass variables https://stackoverflow.com/questions/72958468/sass-not-finding-correct-filepaths
+@use "../../global-styles.scss";
+
+
+.navbar-container-trans, .navbar-container-white{
+    z-index: 99;
+}
+
+
+div.navbar-container-trans {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row; //flex horizontal
+    align-items: center; //kasih ke tengah secara vertical
+    justify-content: space-between; //kasih ke tengah secara horizontal
+
+    //https://www.w3schools.com/css/css3_transitions.asp
+    
+    transition: background-color ease 1.5s;
+    padding: 0px 120px;
+    .navbar-logo{
+        height: 36px;
+        width: 144px;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+
+div.navbar-container-white {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row; //flex horizontal
+    align-items: center; //kasih ke tengah secara vertical
+    justify-content: space-between; //kasih ke tengah secara horizontal
+    padding: 0px 120px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
+
+    transition: background-color ease 1.5s, box-shadow ease 1.5s;
+
+    .navbar-logo{
+        height: 36px;
+        width: 144px;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+
+
+    a{
+        text-decoration: none;
+        text-decoration-line: none;
+        color: global-styles.$primary-gray;
+        padding: 0px 24px;
+    }
+    a:hover{
+        font-weight: bold;
+        color: global-styles.$brand-violet;
+    }

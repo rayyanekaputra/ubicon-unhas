@@ -3,6 +3,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -70,7 +71,7 @@ section.hero {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  padding: 120px 120px;
+  padding: 180px 120px;
   margin-top: -150px;
   display: flex;
   flex-direction: column;
@@ -169,7 +170,7 @@ section.our-people {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(15% 35% at center, #774AF7 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(15% 35% at center 400px, #774AF7 0%, rgba(255, 255, 255, 0) 100%);
   margin-bottom: 120px;
 }
 section.our-people .our-people-container {
@@ -179,29 +180,30 @@ section.our-people .our-people-container {
   flex-direction: column;
   align-items: center;
   padding: 48px 120px;
-  row-gap: 42px;
+  row-gap: 44px;
   border-radius: 16px;
   background-color: rgba(242, 242, 242, 0.5);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
+  
 }
 section.our-people .preview-img-wrapper {
   display: flex;
-  margin-top: -240px;
+  margin-top: -140px;
   align-items: center;
   justify-content: center;
 }
 section.our-people .preview-img-wrapper #head-of-ubicon {
-  z-index: 5;
-  margin: 40px -80px 0px;
+  z-index: 2;
+  margin: 40px -40px 0px;
 }
 section.our-people .preview-img-wrapper #ubicon-1, section.our-people .preview-img-wrapper #ubicon-2 {
   transform: rotate(-9.27deg);
-  margin: 0px -24px 0px;
+  margin: 0px -10px 0px;
 }
 section.our-people .preview-img-wrapper #ubicon-3, section.our-people .preview-img-wrapper #ubicon-4 {
   transform: rotate(9.27deg);
-  margin: 0px -24px 0px;
+  margin: 0px -10px 0px;
 }
 section.our-people .preview-img-wrapper #ubicon-3 {
   z-index: 1;
@@ -259,3 +261,45 @@ section.news-section ul.news-content-renderer {
 section.news-section ul.news-content-renderer::-webkit-scrollbar {
   display: none;
 }/*# sourceMappingURL=index.css.map */
+
+
+section.contact-us-section{
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  padding-bottom: 120px;
+
+}
+
+section.contact-us-section button{
+
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+}
+
+section.contact-us-section h1{
+
+  max-width: 13ch;
+  color: white;
+
+}
+
+section.contact-us-section div.contact-us-container {
+
+  margin: 0px 120px;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: #242424;
+  row-gap: 52px;
+
+}
+
