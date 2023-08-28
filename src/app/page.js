@@ -1,3 +1,6 @@
+'use client'
+import React, { useEffect, useState, useRef} from "react";
+
 import Image from "next/image";
 import styles from "@styles/home.css";
 import bg from "@assets/img_hero_overlay.png";
@@ -14,9 +17,46 @@ import previewPakNiswar from "@assets/profil/profil pak niswar.png"
 import previewPakAdy from "@assets/profil/profil pak ady.png"
 import previewBuElly from "@assets/profil/profil bu elly.png"
 
+//lottie
+import Lottie from "lottie-react"
+import splashUbicon from "./LogoUbiconSplash.json";
+
 export default function Home() {
+
+  // https://shipshape.io/blog/wait-for-page-load-in-react/
+  const [playAnimation, setPlayAnimation] = useState(false);
+
+  // This will run one time after the component mounts
+  useEffect(() => {
+    const onPageLoad = () => {
+      setPlayAnimation(true);
+    };
+
+    // Check if the page has already loaded
+    if (document.readyState === 'complete') {
+      onPageLoad();
+    } else {
+      window.addEventListener('load', onPageLoad);
+      // Remove the event listener when component unmounts
+      return () => window.removeEventListener('load', onPageLoad);
+    }
+  }, []);
+
+
   return (
     <div>
+     
+      {/* <div className={ `splash-screen ${playAnimation ? 'splash-screen-animate' : ''}`}> */}
+      <div className={playAnimation? 'splash-screen-animate': 'splash-screen'}>
+        {/* https://lottiereact.com/components/Lottie#getting-started */}
+        <Lottie animationData={splashUbicon} style={{
+          width: '72px',
+          height: '72px',
+          paddingRight: '8px'
+        }}  />
+        <h1>Welcome</h1>
+          
+      </div>
       <section
         className="hero"
         style={{
@@ -39,7 +79,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h1>Ubicon Lab</h1>
+        <h1>UBICON LAB</h1>
         <h2>Ubiquitous Computing & Networking Lab.</h2>
         <p>@HASANUDDIN UNIVERSITY </p>
       </section>
