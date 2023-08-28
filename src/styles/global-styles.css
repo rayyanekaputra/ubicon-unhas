@@ -4,11 +4,11 @@
   margin: 0px;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Inter";
 }
 
 body {
   background-color: white;
-  font-family: "Inter";
   display: flex;
   flex-direction: column;
   color: #242424;
