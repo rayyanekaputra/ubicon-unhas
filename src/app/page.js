@@ -21,6 +21,7 @@ import previewBuElly from "@assets/profil/profil bu elly.png"
 import Lottie from "lottie-react"
 import splashUbicon from "./LogoUbiconSplash.json";
 
+
 export default function Home() {
 
   // https://shipshape.io/blog/wait-for-page-load-in-react/
@@ -41,7 +42,8 @@ export default function Home() {
       return () => window.removeEventListener('load', onPageLoad);
     }
   }, []);
-
+ 
+  
 
   return (
     <div>
