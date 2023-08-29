@@ -1,5 +1,6 @@
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+import RendererNews from "@components/news/rendererNews";
 import React from "react";
 
 
@@ -18,6 +19,9 @@ const Blog = () => {
       <main>
         {/* https://rapidapi.com/guides/how-to-use-fetch-api-in-next-js */}
         {/* https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/ */}
+        <ul>
+          <RendererNews/>
+        </ul>
         <button >Make API call</button>
       
 
