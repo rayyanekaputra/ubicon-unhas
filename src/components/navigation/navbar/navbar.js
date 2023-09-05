@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import '@styles/navigation/navbar/navbar.css'
+import '@styles/navigation/navbar/navbar.scss'
 import Image from 'next/image';
 
 // https://medium.com/@a.pirus/how-to-create-a-responsive-navigation-bar-in-next-js-13-e5540789a017
@@ -49,18 +49,21 @@ return (
 	<div className={checkScroll? 'navbar-container-trans':'navbar-container-white'}>
         <div className='navbar-logo'>
             {/* panggil import */}
+            <Link href="/">
             <Image src={navbar_logo} alt='logo ubicon'/>
+            </Link>
+           
         </div>
         <div className='navbar-menu'>
             <Link href="/">
-                Home
+              <p>Home</p>  
             </Link>
             {/* TODO: buatkan pagenya dan router di App.js */}
-            <Link href="/pages/blog">
-                Blog
+            <Link href="/blog">
+                <p>Blog</p>  
             </Link>
-            <Link href="/pages/about">
-                About Us
+            <Link href="/about">
+                <p>About Us</p>  
             </Link>
         </div> 
         <div className='navbar-logo'>

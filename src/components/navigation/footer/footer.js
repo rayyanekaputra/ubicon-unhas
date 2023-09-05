@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import "@styles/navigation/footer/footer.css";
+import "@styles/navigation/footer/footer.scss";
 
 // Icons dari MaterialUI
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -26,8 +26,8 @@ function Footer() {
         <div className="col-2">
           {/* https://refine.dev/blog/next-js-link-component/ */}
           <Link href='/'><p>Home</p></Link>
-          <Link href='/pages/blog'><p>Blog</p></Link>
-          <Link href='/pages/about'><p>About Us</p></Link>
+          <Link href='/blog'><p>Blog</p></Link>
+          <Link href='/about'><p>About Us</p></Link>
         </div>
         <div className="col-3">
           <p>
