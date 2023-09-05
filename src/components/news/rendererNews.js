@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import "@styles/news/rendererNews.css";
-
+import "@styles/news/rendererNews.scss";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function RendererNews() {
@@ -39,26 +39,85 @@ export default function RendererNews() {
     getData();
   }, []);
 
+  const handleShowLoading = () => {
+    setLoading(true);
+  };
   return (
     <>
-      {loading && <div>A moment please...</div>}
+      {/* 
+      Troubleshoot skeleton manual UI
+      <button onClick={handleShowLoading}> SHOW LOADING </button> 
+      */}
+
+      {loading && (<>
+        <li className="news-content-list loading">
+          <div className="img-news-container"> </div>
+          <div className="news-content">
+            <div className="loading-box-text title"></div>
+            <div className="loading-box-text date"></div>
+            <div className="loading-box-text"></div>
+          </div>
+        </li>
+        <li className="news-content-list loading">
+          <div className="img-news-container"> </div>
+          <div className="news-content">
+            <div className="loading-box-text title"></div>
+            <div className="loading-box-text date"></div>
+            <div className="loading-box-text"></div>
+          </div>
+        </li>
+        <li className="news-content-list loading">
+          <div className="img-news-container"> </div>
+          <div className="news-content">
+            <div className="loading-box-text title"></div>
+            <div className="loading-box-text date"></div>
+            <div className="loading-box-text"></div>
+          </div>
+        </li>
+        <li className="news-content-list loading">
+          <div className="img-news-container"> </div>
+          <div className="news-content">
+            <div className="loading-box-text title"></div>
+            <div className="loading-box-text date"></div>
+            <div className="loading-box-text"></div>
+          </div>
+        </li>
+        <li className="news-content-list loading">
+          <div className="img-news-container"> </div>
+          <div className="news-content">
+            <div className="loading-box-text title"></div>
+            <div className="loading-box-text date"></div>
+            <div className="loading-box-text"></div>
+          </div>
+        </li>
+      </>
+        
+        
+      )}
       {error && (
         <div>{`There is a problem fetching the post data - ${error}`}</div>
       )}
+
+      {/* https://twitter.com/asidorenko_/status/1692983047925235868 */}
       {data &&
         data.map(({ id_news, judul, thumbnail, tanggal, konten }) => (
-          <li key={id_news} className="news-content-list">
-            <div className="img-news-container">
-              <Image src={thumbnail} alt={judul} width={300} height={300}/>
-            </div>
-            <div className="news-content">
-              <h1>{judul}</h1>
-              <p className="date_p">{tanggal}</p>
-              <div className="truncate_brief">
-                <p>{konten}</p>
+          
+          <Link href={`/blog/posts/${id_news}`}>
+            
+            <li key={id_news} className="news-content-list">
+              <div className="img-news-container">
+                <Image src={thumbnail} alt={judul} fill objectFit="cover" />
               </div>
-            </div>
-          </li>
+              <div className="news-content">
+                <h3>{judul}</h3>
+                <p className="date_p">{tanggal}</p>
+                <div className="truncate_brief">
+                  <p>{konten}</p>
+                </div>
+              </div>
+            </li>
+          </Link>
+          
         ))}
     </>
   );

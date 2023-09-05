@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect }from "react";
-import "@styles/news/rendererNews.css";
+import "@styles/news/rendererNews.scss";
 
 import Image from "next/image";
 
