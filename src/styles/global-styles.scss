@@ -10,12 +10,85 @@ $brand-violet: #774AF7;
   margin: 0px;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Inter", sans-serif !important; 
 }
 body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: $primary-gray;
+  overflow-x: hidden;
+}
+
+h1.hero{
+  font-weight: 900;
+}
+
+h1 {
+  color: #242424;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 72px;
+  text-align: center; 
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+  width: 24ch;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  color: #242424;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+p {
+  color: #7E7E7E;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+button {
+  height: 56px;
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  background-color: #774AF7;
+  padding: 16px;
+  transition: all 0.5s ease-in-out;
+}
+button p {
+  width: 100%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+}
+
+button:hover {
+  transform: scale(115%);
+  cursor: pointer;
+}
+
+section{
+  padding: 0px 120px;
 }
 
 // Global custom .css scrollbar

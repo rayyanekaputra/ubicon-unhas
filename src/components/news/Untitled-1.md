@@ -1,0 +1,1 @@
+C:/Users/HP/Documents/coding/ubicon-unhas/src/components/news/rendererNews.js

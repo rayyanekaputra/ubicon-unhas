@@ -1,0 +1,32 @@
+
+// Hati-hati pake class/element yang bisa saling baku timpa di page lain,
+// Solusinya pake double class
+section.hero.blog {
+    //section.hero sudah ada di home.scss
+    padding: 300px 0px 120px;
+    background-image: radial-gradient(300px 300px at top, #EBE4FF 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+section.blog-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    width: 100%;
+    padding-bottom: 120px;
+
+    h3.blog-time-content{
+        font-size: 24px;
+    }
+    
+    ul.news-content-renderer {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        gap: 36px;
+        width: 100%;
+        flex-wrap: wrap;
+
+      }
+
+}

@@ -1,0 +1,131 @@
+li.news-content-list {
+  border-radius: 8px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 384px;
+  align-items: flex-start;
+  gap: 24px;
+  
+  
+  
+}
+/* li.news-content-list img{
+  width: 100%;
+  position: absolute;
+
+} */
+li.news-content-list div.img-news-container{
+  height: 180px;
+  width: 384px;
+  border-radius: 16px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background-color: #f4f4f4;
+ 
+}
+
+li.news-content-list div.news-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  /* background-color: blue; */
+  
+}
+li.news-content-list div.news-content h3 {
+  height: 80px;
+  /* truncate */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+}
+li.news-content-list div.news-content p.date_p {
+  color: #7E7E7E;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+li.news-content-list div.news-content div.truncate_brief {
+  overflow: hidden;
+  width: 100%;
+}
+li.news-content-list div.news-content div.truncate_brief p {
+   /* truncate */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+
+  color: #242424;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}/*# sourceMappingURL=newsContentRenderer.css.map */
+
+li.news-content-list.loading{
+  border-radius: 8px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 384px;
+  align-items: flex-start;
+  gap: 24px;
+  animation: opacityUp 1s 0s ease infinite;
+    
+  div.img-news-container{
+    height: 180px;
+    width: 384px;
+    border-radius: 16px;
+    background-color: #F4F4F4;
+    
+  
+  }
+
+  div.news-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+
+    /* background-color: blue; */
+    div.loading-box-text{
+      height: 72px;
+      border-radius: 8px;
+      background-color: #F4F4F4;
+    }
+    div.loading-box-text.date{
+      height: 24px;
+      border-radius: 4cap;
+      background-color: #F4F4F4;
+    }
+    div.loading-box-text.title{
+      height: 80px;
+      border-radius: 4cap;
+      background-color: #F4F4F4;
+    }
+  }
+}
+
+@keyframes opacityUp {
+  from{
+    opacity: 0.1;
+  }
+  to{
+    opacity: 1;
+  }
+}
