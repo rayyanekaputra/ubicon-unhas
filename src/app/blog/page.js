@@ -5,10 +5,12 @@ import "@styles/pages/blog/blog.scss";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
+//TO DO: BUAT SEARCH FIELD
+
 const Blog = () => {
   return (
     <div>
-      <section className="hero blog">
+      <section className="hero-blog">
         <div className="hero-headings">
           <h1>Ubiblog</h1>
           <p>Read our latest news and<br/>stories in our blog!</p>
