@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState, useRef, Suspense} from "react";
 
+
 import Image from "next/image";
 import "@styles/home.scss";
 import bg from "@assets/img_hero_overlay.png";
