@@ -1,0 +1,52 @@
+.lecturer-show-li{
+list-style-type: none;
+flex-basis: 30%;
+width: auto;
+
+div.lecturer-card{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    row-gap: 20px;
+    width: fit-content;
+    
+    h3{
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 140%;
+        width: 13ch;
+    }
+    h4{
+        color: #7E7E7E;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 33.6px */
+    }
+    p{
+        color: #7E7E7E;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+        text-align: left;
+        width: 24ch;
+    }
+    div.lecturer-img-container{
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        padding: 0;
+        width: 256px;
+        height: 300px;
+        position: relative;
+
+        border-radius: 12px;
+        // box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+
+}
+
+}
