@@ -15,7 +15,7 @@ export default function RendererNews() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await fetch(`https://ubi-api.onrender.com/news`);
+        const response = await fetch(`https://ubicon.unhas.ac.id/b-api/news`);
 
         if (!response.ok) {
           throw new Error(

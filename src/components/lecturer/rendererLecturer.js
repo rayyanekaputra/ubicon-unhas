@@ -30,7 +30,7 @@ const dataLecturer = [
   {
     id: 3,
     profil_img: require("/public/assets/profil/4 bu novy.png"),
-    nama_dosen: "Novy Nur R.A Mokobombang, S.T., Ms.TM.",
+    nama_dosen: "Novy NRA Mokobombang, S.T., Ms.TM., PhD",
      posisi_dosen: "Lecturer",
     research_dosen:
       "ICT Policy and Open Data",
@@ -77,12 +77,15 @@ const RendererLecturer = () => {
             }}
           />
         </div>
+        <div className="lecturer-content">
+
         <h3>{item.nama_dosen}</h3>
         <h4>{item.posisi_dosen}</h4>
         <p>
           Research: <br />
           {item.research_dosen}
         </p>
+        </div>
       </div>
     </li>
     )
