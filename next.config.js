@@ -9,9 +9,9 @@ module.exports = {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'ubi-api.onrender.com',
+          hostname: 'ubicon.unhas.ac.id',
           port: '',
-          pathname: '/news/thumbnail/**',
+          pathname: '/b-api/news/thumbnail/**',
         },
       ],
     },
