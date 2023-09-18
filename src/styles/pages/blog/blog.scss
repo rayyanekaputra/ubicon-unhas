@@ -5,6 +5,13 @@ section.hero-blog {
     //section.hero sudah ada di home.scss
     padding: 300px 0px 120px;
     background-image: radial-gradient(300px 300px at top, #EBE4FF 0%, rgba(255, 255, 255, 0) 100%);
+    div.hero-headings{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 24px;
+
+    }
 
 }
 
