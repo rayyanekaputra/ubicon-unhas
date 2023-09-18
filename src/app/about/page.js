@@ -3,6 +3,7 @@ import styles from "@styles/pages/about-us/aboutus.scss";
 import Image from "next/image";
 import zIndex from "@mui/material/styles/zIndex";
 import RendererLecturer from "@components/lecturer/rendererLecturer";
+import RendererEngineer from "@components/engineer/rendererEngineer";
 
 const AboutUs = () => {
   return (
@@ -43,6 +44,32 @@ const AboutUs = () => {
           <ul className="lecturer-show-ul">
             <RendererLecturer/>
           </ul>
+        </div>
+      </section>
+      <section className="engineer-section">
+        <div className="engineer-title">
+          <h1>Wonderful website engineers of Ubicon’s</h1>
+          <p>
+          Designed and developed from scratch with love and passions
+          </p>
+        </div>
+        <div className="engineer-show">
+          <ul className="engineer-show-ul">
+            <RendererEngineer/>
+          </ul>
+        </div>
+      </section>
+      <section className="map-section">
+      <div className="map-title">
+          <h1>Pay a visit to our lab at Engineering Faculty</h1>
+          <p>
+          Jl. Malino No.8 F, Romang Lompoa, Kec. Bontomarannu, Kabupaten Gowa, Sulawesi Selatan 92171
+          </p>
+        </div>
+        <div className="map-embed">
+        <iframe frameborder="0" scrolling="no" marginheight="0"
+        marginwidth="0"
+        className = "map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=TEKNIK%20UNHAS+(Teknik%20UNHAS)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </div>
       </section>
     </div>
