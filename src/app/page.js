@@ -1,32 +1,29 @@
-'use client'
-import React, { useEffect, useState, useRef, Suspense} from "react";
+"use client";
+import React, { useEffect, useState, useRef, Suspense } from "react";
 
-
+import Link from "next/link";
 import Image from "next/image";
 import "@styles/home.scss";
 import bg from "@assets/img_hero_overlay.png";
-import bg_cta from "@assets/bg_cta.png"
+import bg_cta from "@assets/bg_cta.png";
 import { RendererResearch } from "@components/research/rendererResearch";
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
-import RendererNews  from "@components/news/rendererNews";
-
+import RendererNews from "@components/news/rendererNews";
 
 //Foto-foto preview
-import previewBuNovy from "@assets/profil/profil bu novy.png"
-import previewPakKiki from "@assets/profil/profil pak kiki.png"
-import previewPakNiswar from "@assets/profil/profil pak niswar.png"
-import previewPakAdy from "@assets/profil/profil pak ady.png"
-import previewBuElly from "@assets/profil/profil bu elly.png"
+import previewBuNovy from "@assets/profil/profil bu novy.png";
+import previewPakKiki from "@assets/profil/profil pak kiki.png";
+import previewPakNiswar from "@assets/profil/profil pak niswar.png";
+import previewPakAdy from "@assets/profil/profil pak ady.png";
+import previewBuElly from "@assets/profil/profil bu elly.png";
 
 //lottie
-import Lottie from "lottie-react"
+import Lottie from "lottie-react";
 import splashUbicon from "./LogoUbiconSplash.json";
 import Loading from "./loading";
 
-
 export default function Home() {
-
   // https://shipshape.io/blog/wait-for-page-load-in-react/
   const [playAnimation, setPlayAnimation] = useState(false);
 
@@ -37,31 +34,32 @@ export default function Home() {
     };
 
     // Check if the page has already loaded
-    if (document.readyState === 'complete') {
+    if (document.readyState === "complete") {
       onPageLoad();
     } else {
-      window.addEventListener('load', onPageLoad);
+      window.addEventListener("load", onPageLoad);
       // Remove the event listener when component unmounts
-      return () => window.removeEventListener('load', onPageLoad);
+      return () => window.removeEventListener("load", onPageLoad);
     }
   }, []);
- 
-  
 
   return (
     <>
-     
       {/* <div className={ `splash-screen ${playAnimation ? 'splash-screen-animate' : ''}`}> */}
-      <div className={playAnimation? 'splash-screen-animate': 'splash-screen'}>
+      <div
+        className={playAnimation ? "splash-screen-animate" : "splash-screen"}
+      >
         {/* https://lottiereact.com/components/Lottie#getting-started */}
-        <Lottie animationData={splashUbicon} style={{
-          width: '72px',
-          height: '72px',
-          paddingRight: '8px'
-        }}  />
+        <Lottie
+          animationData={splashUbicon}
+          style={{
+            width: "72px",
+            height: "72px",
+            paddingRight: "8px",
+          }}
+        />
         <h1>Welcome</h1>
-          
-      </div> 
+      </div>
       <section
         className="hero"
         style={{
@@ -70,7 +68,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "top",
           backgroundSize: "cover",
-          width: '100%',
+          width: "100%",
         }}
       >
         <div className="logo-ubicon-container">
@@ -95,165 +93,82 @@ export default function Home() {
         <ul>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-01.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-01.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-02.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-02.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-03.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-03.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-04.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-04.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-05.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-05.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-06.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-06.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-07.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-07.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-08.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-        </ul>
-
-        <ul>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-01.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-02.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-03.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-04.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-05.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-06.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-07.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
-            </div>
-          </li>
-          <li>
-            <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-08.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-08.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
         </ul>
@@ -261,82 +176,165 @@ export default function Home() {
         <ul>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-01.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-01.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-02.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-02.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-03.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-03.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-04.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-04.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-05.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-05.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-06.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-06.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-07.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-07.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
           <li>
             <div className="carousel-img">
-            <Image
-              src="/assets/carousel/carousel-image-08.png"
-              // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
-              alt="Gambar Gedung Departemen"
-              fill
-            />
+              <Image
+                src="/assets/carousel/carousel-image-08.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-01.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-02.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-03.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-04.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-05.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-06.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-07.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
+            </div>
+          </li>
+          <li>
+            <div className="carousel-img">
+              <Image
+                src="/assets/carousel/carousel-image-08.png"
+                // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
+                alt="Gambar Gedung Departemen"
+                fill
+              />
             </div>
           </li>
         </ul>
@@ -358,35 +356,32 @@ export default function Home() {
         <div className="our-people-container">
           <h1>Our People</h1>
           <p className="p1">
-          Get to know our lecturer, researcher, <br/>and member of the clouds
-        </p>
-          <button>
-            <p>Read more</p>
-          </button>
+            Get to know our lecturer, researcher, <br />
+            and member of the clouds
+          </p>
+          <Link href="/about" rel="noopener noreferrer" target="_blank">
+            <button>
+              <p>Read more</p>
+            </button>
+          </Link>
         </div>
         <div className="preview-img-wrapper">
           <div className="preview-img" id="ubicon-1">
-            
             {/* size gambar ada di home.scss karena import static di atas:
             section.our-people .preview-img-wrapper img*/}
-            <Image src={previewBuNovy}
-            alt="bu novy"/>
+            <Image src={previewBuNovy} alt="bu novy" />
           </div>
           <div className="preview-img" id="ubicon-2">
-          <Image src={previewPakKiki}
-            alt="pak kiki"/>
+            <Image src={previewPakKiki} alt="pak kiki" />
           </div>
           <div className="preview-img" id="head-of-ubicon">
-          <Image src={previewPakNiswar}
-            alt="pak niswar"/>
+            <Image src={previewPakNiswar} alt="pak niswar" />
           </div>
           <div className="preview-img" id="ubicon-3">
-          <Image src={previewPakAdy}
-            alt="pak ady"/>
+            <Image src={previewPakAdy} alt="pak ady" />
           </div>
           <div className="preview-img" id="ubicon-4">
-          <Image src={previewBuElly}
-            alt="bu elly"/>
+            <Image src={previewBuElly} alt="bu elly" />
           </div>
         </div>
       </section>
@@ -398,39 +393,43 @@ export default function Home() {
             <p className="p1">Read our latest news and stories in our blog!</p>
           </div>
 
-          <button>
-            <p>Read more</p>
-          </button>
+          <Link href="/blog" rel="noopener noreferrer" target="_blank">
+            <button>
+              <p>Read more</p>
+            </button>
+          </Link>
         </div>
         <div className="news-content-container">
-
           {/* TODO: bikinkan renderer function untuk newsnya, usahakan pake fetch API */}
           <ul className="news-content-renderer">
             <Suspense fallback={Loading}>
-             <RendererNews />
+              <RendererNews />
             </Suspense>
-            
           </ul>
         </div>
       </section>
 
       <section className="contact-us-section">
         <p>Are you a student of Informatics UNHAS?</p>
-        <div className='contact-us-container-container'>
-          <div className="contact-us-container" style={{
-            //pake back-quote ` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-            backgroundImage: `url(${bg_cta.src})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top",
-            backgroundSize: "cover",
-          }}>
+        <div className="contact-us-container-container">
+          <div
+            className="contact-us-container"
+            style={{
+              //pake back-quote ` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+              backgroundImage: `url(${bg_cta.src})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "top",
+              backgroundSize: "cover",
+            }}
+          >
             <h1>Join and explore the cloud with us</h1>
+            <Link href="https://www.instagram.com/ubicon_unhas/" passHref={true} rel="noopener noreferrer" target="_blank">
               <button>
-                <p>Contact Us</p>
+                <p>Read more</p>
               </button>
+            </Link>
           </div>
         </div>
-        
       </section>
     </>
   );
