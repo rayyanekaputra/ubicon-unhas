@@ -38,13 +38,6 @@ const page = ({ params }) => {
   // filter data, return dari filter() itu array baru
   const dataNewForIdNews = data.filter((item) => item.id_news === params.id);
   console.log(dataNewForIdNews, "ini data baru");
-
-  // Split the text based on dots and create an array
-  const splitKonten =
-    dataNewForIdNews.length > 0
-      ? dataNewForIdNews[0].konten.split(/[.!?]/)
-      : [];
-  console.log(splitKonten, "ini split konten");
   const handleShowLoading = () => {
     setLoading(true);
   };
@@ -81,25 +74,28 @@ const page = ({ params }) => {
      
       {dataNewForIdNews.length > 0 && (
         <section className="news-body">
-          <div className="news-body-content-header">
-            <h1>{dataNewForIdNews[0].judul}</h1>
-            <div className="date-wrapper">
-              <CalendarMonthIcon />
-              <p>{dataNewForIdNews[0].tanggal}</p>
+          <div className="news-body-header">
+            <div className="news-body-content-header">
+              <h1>{dataNewForIdNews[0].judul}</h1>
+              <div className="date-wrapper">
+                <CalendarMonthIcon />
+                <p>{dataNewForIdNews[0].tanggal}</p>
+              </div>
+            </div>
+            <div className="img-news-container">
+              <Image
+                src={dataNewForIdNews[0].thumbnail}
+                alt={dataNewForIdNews[0].alt}
+                fill
+                objectFit="cover"
+              />
             </div>
           </div>
-          <div className="img-news-container">
-            <Image
-              src={dataNewForIdNews[0].thumbnail}
-              alt={dataNewForIdNews[0].alt}
-              fill
-            />
-          </div>
-
-          <p>
-            {splitKonten.map((part, index) => (
-              <span key={index}>
-                {part}
+    
+           <p>
+            {dataNewForIdNews.map( ({id_news, konten}) => (
+              <span key={id_news}>
+                {konten}
                 <br /> {/* Render a new line */}
               </span>
             ))}
