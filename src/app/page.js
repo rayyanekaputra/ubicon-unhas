@@ -18,48 +18,11 @@ import previewPakNiswar from "@assets/profil/profil pak niswar.png";
 import previewPakAdy from "@assets/profil/profil pak ady.png";
 import previewBuElly from "@assets/profil/profil bu elly.png";
 
-//lottie
-import Lottie from "lottie-react";
-import splashUbicon from "./LogoUbiconSplash.json";
 import Loading from "./loading";
 
 export default function Home() {
-  // https://shipshape.io/blog/wait-for-page-load-in-react/
-  const [playAnimation, setPlayAnimation] = useState(false);
-
-  // This will run one time after the component mounts
-  useEffect(() => {
-    const onPageLoad = () => {
-      setPlayAnimation(true);
-    };
-
-    // Check if the page has already loaded
-    if (document.readyState === "complete") {
-      onPageLoad();
-    } else {
-      window.addEventListener("load", onPageLoad);
-      // Remove the event listener when component unmounts
-      return () => window.removeEventListener("load", onPageLoad);
-    }
-  }, []);
-
   return (
     <>
-      {/* <div className={ `splash-screen ${playAnimation ? 'splash-screen-animate' : ''}`}> */}
-      <div
-        className={playAnimation ? "splash-screen-animate" : "splash-screen"}
-      >
-        {/* https://lottiereact.com/components/Lottie#getting-started */}
-        <Lottie
-          animationData={splashUbicon}
-          style={{
-            width: "72px",
-            height: "72px",
-            paddingRight: "8px",
-          }}
-        />
-        <h1>Welcome</h1>
-      </div>
       <section
         className="hero"
         style={{

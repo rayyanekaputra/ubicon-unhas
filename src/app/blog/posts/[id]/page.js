@@ -100,6 +100,7 @@ const page = ({ params }) => {
               </span>
             ))}
           </p>
+          
         </section>
       )}
     </div>
