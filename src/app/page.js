@@ -322,7 +322,7 @@ export default function Home() {
             Get to know our lecturer, researcher, <br />
             and member of the clouds
           </p>
-          <Link href="/about" rel="noopener noreferrer" target="_blank">
+          <Link href="/about" rel="noopener noreferrer">
             <button>
               <p>Read more</p>
             </button>
@@ -356,7 +356,7 @@ export default function Home() {
             <p className="p1">Read our latest news and stories in our blog!</p>
           </div>
 
-          <Link href="/blog" rel="noopener noreferrer" target="_blank">
+          <Link href="/blog" rel="noopener noreferrer">
             <button>
               <p>Read more</p>
             </button>
@@ -386,7 +386,7 @@ export default function Home() {
             }}
           >
             <h1>Join and explore the cloud with us</h1>
-            <Link href="https://www.instagram.com/ubicon_unhas/" passHref={true} rel="noopener noreferrer" target="_blank">
+            <Link href="https://www.instagram.com/ubicon_unhas/" passHref={true} rel="noopener noreferrer">
               <button>
                 <p>Read more</p>
               </button>
