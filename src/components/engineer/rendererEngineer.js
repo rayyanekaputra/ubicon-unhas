@@ -15,7 +15,7 @@ const dataEngineer = [
       profil_img: require("/public/assets/profil/engineers 02.png"),
       nama_engineer: "Artia",
       posisi_engineer: "CMS Frontend",
-      research_engineer: "Computer Vision",
+      research_engineer: "Web Development",
     },
     {
       id: 2,
