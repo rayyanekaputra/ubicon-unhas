@@ -11,13 +11,6 @@ import { RendererResearch } from "@components/research/rendererResearch";
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 import RendererNews from "@components/news/rendererNews";
 
-//Foto-foto preview
-import previewBuNovy from "@assets/profil/profil bu novy.png";
-import previewPakKiki from "@assets/profil/profil pak kiki.png";
-import previewPakNiswar from "@assets/profil/profil pak niswar.png";
-import previewPakAdy from "@assets/profil/profil pak ady.png";
-import previewBuElly from "@assets/profil/profil bu elly.png";
-
 import Loading from "./loading";
 
 export default function Home() {
@@ -332,19 +325,35 @@ export default function Home() {
           <div className="preview-img" id="ubicon-1">
             {/* size gambar ada di home.scss karena import static di atas:
             section.our-people .preview-img-wrapper img*/}
-            <Image src={previewBuNovy} alt="bu novy" />
+            <Image
+              src="/assets/profil/profil bu novy.png"
+              alt="bu novy"
+              fill
+              objectFit="cover"
+              overflow
+            />
           </div>
           <div className="preview-img" id="ubicon-2">
-            <Image src={previewPakKiki} alt="pak kiki" />
+            <Image
+              src="/assets/profil/profil pak kiki.png"
+              alt="pak kiki"
+              fill
+              objectFit="cover"
+            />
           </div>
           <div className="preview-img" id="head-of-ubicon">
-            <Image src={previewPakNiswar} alt="pak niswar" />
+            <Image
+              src="/assets/profil/profil pak niswar.png"
+              alt="pak niswar"
+              fill
+              objectFit="cover"
+            />
           </div>
           <div className="preview-img" id="ubicon-3">
-            <Image src={previewPakAdy} alt="pak ady" />
+            <Image src="/assets/profil/profil pak ady.png" alt="pak ady" fill objectFit="cover"/>
           </div>
           <div className="preview-img" id="ubicon-4">
-            <Image src={previewBuElly} alt="bu elly" />
+            <Image src="/assets/profil/profil bu elly.png" alt="bu elly" fill objectFit="cover"/>
           </div>
         </div>
       </section>
@@ -386,7 +395,11 @@ export default function Home() {
             }}
           >
             <h1>Join and explore the cloud with us</h1>
-            <Link href="https://www.instagram.com/ubicon_unhas/" passHref={true} rel="noopener noreferrer">
+            <Link
+              href="https://www.instagram.com/ubicon_unhas/"
+              passHref={true}
+              rel="noopener noreferrer"
+            >
               <button>
                 <p>Read more</p>
               </button>

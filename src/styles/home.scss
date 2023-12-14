@@ -133,6 +133,8 @@ section.our-people .preview-img-wrapper {
   align-items: center;
   justify-content: center;
   position: relative;
+  background-color: orange;
+  width: 100%;
 }
 
 section.our-people .preview-img-wrapper img{
@@ -140,6 +142,16 @@ section.our-people .preview-img-wrapper img{
   mix-blend-mode: luminosity;
 }
 
+section.our-people .preview-img-wrapper .preview-img {
+  position: relative;
+  display: flex;
+  background: white;
+  width: 304px;
+  height: 368px;
+  border-radius: 16px;
+  box-shadow: 0 0 24px -8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
 section.our-people .preview-img-wrapper #head-of-ubicon {
   z-index: 2;
   margin: 40px -40px 0px;
@@ -160,15 +172,6 @@ section.our-people .preview-img-wrapper #ubicon-3 {
 }
 section.our-people .preview-img-wrapper #ubicon-4 {
   z-index: 0;
-}
-section.our-people .preview-img-wrapper .preview-img {
-  position: relative;
-  display: flex;
-  background: white;
-  width: 304px;
-  height: 368px;
-  border-radius: 16px;
-  box-shadow: 0 0 24px -8px rgba(0, 0, 0, 0.3);
 }
 
 section.news-section {
