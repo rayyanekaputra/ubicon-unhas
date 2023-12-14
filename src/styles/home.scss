@@ -133,12 +133,10 @@ section.our-people .preview-img-wrapper {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: orange;
   width: 100%;
 }
 
 section.our-people .preview-img-wrapper img{
-  height: 100%;
   mix-blend-mode: luminosity;
 }
 
@@ -146,8 +144,8 @@ section.our-people .preview-img-wrapper .preview-img {
   position: relative;
   display: flex;
   background: white;
-  width: 304px;
-  height: 368px;
+  width: 222px;
+  height: 266px;
   border-radius: 16px;
   box-shadow: 0 0 24px -8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
