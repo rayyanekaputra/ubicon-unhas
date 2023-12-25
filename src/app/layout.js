@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState} from "react";
+import { Metadata } from 'next'
 
 import "@styles/global-styles.scss";
 import Navbar from "@components/navigation/navbar/navbar";
@@ -15,15 +16,22 @@ const inter = Inter({
   display: "swap",
 });
 
-export const metadata = {
-  title: "UBICON",
-  description: "Fly through the clouds with UBICON UNHAS",
-};
 
+// https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object
+
+export const useMetadata = () => {
+  const [metadata, setMetadata] = useState({
+    title: 'UBICON',
+    description: 'Ubiquitous Computing & Networking Lab.',
+    metadataBase: new URL('https://ubicon.unhas.ac.id/'),
+  });
+  return metadata;
+};
 export default function RootLayout({ children }) {
 
   //Website loaded? kasih liat splashscreen --> simpan di tab browser (sessionStorage)
   const [isSiteShown, setSiteShown] = useState(false);
+  const metadata = useMetadata();
 
   useEffect(() => {
     let hasSiteShown = sessionStorage.getItem("pertama kali?");
