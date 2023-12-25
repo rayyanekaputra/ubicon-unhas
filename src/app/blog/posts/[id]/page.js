@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from "react";
 import "@styles/pages/blog/news_detail/news_detail.scss";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import DOMPurify from "dompurify";
 import Image from "next/image";
+
 const page = ({ params }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -19,7 +21,6 @@ const page = ({ params }) => {
           );
         }
         let actualData = await response.json();
-        console.log(actualData);
         let actualDataInside = actualData.data;
         setData(actualDataInside);
         setError(null);
@@ -37,10 +38,11 @@ const page = ({ params }) => {
 
   // filter data, return dari filter() itu array baru
   const dataNewForIdNews = data.filter((item) => item.id_news === params.id);
-  console.log(dataNewForIdNews, "ini data baru");
+  // console.log(dataNewForIdNews, "ini data baru");
   const handleShowLoading = () => {
     setLoading(true);
   };
+
   return (
     <div>
       {/* 
@@ -57,9 +59,7 @@ const page = ({ params }) => {
               <CalendarMonthIcon />
             </div>
           </div>
-          <div className="img-news-container">
-
-          </div>
+          <div className="img-news-container"></div>
           <div className="news-body-content">
             <div className="h1"></div>
             <div className="h1 besardikit"></div>
@@ -67,11 +67,10 @@ const page = ({ params }) => {
             <div className="h1"></div>
             <div className="h1 besardikit"></div>
           </div>
-          
         </section>
       )}
       {error && <p>Error: {error}</p>}
-     
+
       {dataNewForIdNews.length > 0 && (
         <section className="news-body">
           <div className="news-body-header">
@@ -91,16 +90,21 @@ const page = ({ params }) => {
               />
             </div>
           </div>
-    
-           <p>
-            {dataNewForIdNews.map( ({id_news, konten}) => (
-              <span key={id_news}>
-                {konten}
-                <br /> {/* Render a new line */}
-              </span>
-            ))}
+
+          <p>
+            {/* https://blog.logrocket.com/using-dangerouslysetinnerhtml-in-a-react-application/ */}
+            {dataNewForIdNews.map(({ id_news, konten }) => {
+              const sanitizedData = () => ({
+                __html: DOMPurify.sanitize(konten),
+                // sanitize spy nda kenna XSS
+              });
+              return (
+                <span key={id_news}>
+                  <div dangerouslySetInnerHTML={sanitizedData()} />
+                </span>
+              );
+            })}
           </p>
-          
         </section>
       )}
     </div>
