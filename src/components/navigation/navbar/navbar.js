@@ -60,10 +60,13 @@ return (
             </Link>
             {/* TODO: buatkan pagenya dan router di App.js */}
             <Link href="/blog">
-                <p>Blog</p>  
+                <p>News</p>  
+            </Link>
+            <Link href="/publication">
+                <p>Publication</p>  
             </Link>
             <Link href="/about">
-                <p>About Us</p>  
+                <p>People</p>  
             </Link>
         </div> 
         <div className='navbar-logo'>
