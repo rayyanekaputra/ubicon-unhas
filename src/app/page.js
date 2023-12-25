@@ -54,6 +54,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -64,6 +68,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -74,6 +82,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -84,6 +96,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -94,6 +110,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -104,6 +124,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -114,6 +138,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -124,6 +152,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -137,6 +169,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -147,6 +183,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -157,6 +197,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -167,6 +211,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -177,6 +225,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -187,6 +239,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -197,6 +253,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -207,10 +267,15 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
         </ul>
+
 
         <ul>
           <li>
@@ -220,6 +285,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -230,6 +299,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -240,6 +313,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -250,6 +327,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -260,6 +341,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -270,6 +355,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -280,6 +369,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -290,10 +383,15 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                 sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
         </ul>
+
       </div>
 
       <section className="research-type">
@@ -329,8 +427,10 @@ export default function Home() {
               src="/assets/profil/profil bu novy.png"
               alt="bu novy"
               fill
-              objectFit="cover"
-              overflow
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
             />
           </div>
           <div className="preview-img" id="ubicon-2">
@@ -338,7 +438,10 @@ export default function Home() {
               src="/assets/profil/profil pak kiki.png"
               alt="pak kiki"
               fill
-              objectFit="cover"
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
             />
           </div>
           <div className="preview-img" id="head-of-ubicon">
@@ -346,14 +449,33 @@ export default function Home() {
               src="/assets/profil/profil pak niswar.png"
               alt="pak niswar"
               fill
-              objectFit="cover"
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
             />
           </div>
           <div className="preview-img" id="ubicon-3">
-            <Image src="/assets/profil/profil pak ady.png" alt="pak ady" fill objectFit="cover"/>
+            <Image
+              src="/assets/profil/profil pak ady.png"
+              alt="pak ady"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
           <div className="preview-img" id="ubicon-4">
-            <Image src="/assets/profil/profil bu elly.png" alt="bu elly" fill objectFit="cover"/>
+            <Image
+              src="/assets/profil/profil bu elly.png"
+              alt="bu elly"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
         </div>
       </section>

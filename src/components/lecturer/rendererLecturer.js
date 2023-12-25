@@ -55,7 +55,6 @@ const dataLecturer = [
 
 const RendererLecturer = () => {
   return dataLecturer.map((item) =>{
-    console.log(item.id)
     return(
         <li className="lecturer-show-li" key={item.id}>
       <div className="lecturer-card">
@@ -63,6 +62,7 @@ const RendererLecturer = () => {
           <Image
             src={item.profil_img}
             fill
+            sizes="100%"
             style={{
               zIndex: "1",
               objectFit: "cover",

@@ -23,7 +23,6 @@ export default function RendererNews() {
           );
         }
         let actualData = await response.json();
-        console.log(actualData);
         let actualDataInside = actualData.data;
         setData(actualDataInside);
         setError(null);
@@ -106,7 +105,9 @@ export default function RendererNews() {
             
             <li key={id_news} className="news-content-list">
               <div className="img-news-container">
-                <Image src={thumbnail} alt={judul} fill objectFit="cover" />
+                <Image src={thumbnail} alt={judul} fill sizes="100%" style={{
+                objectFit: "cover", // cover, contain, none
+              }}/>
               </div>
               <div className="news-content">
                 <h3>{judul}</h3>
