@@ -26,8 +26,9 @@ function Footer() {
         <div className="col-2">
           {/* https://refine.dev/blog/next-js-link-component/ */}
           <Link href='/'><p>Home</p></Link>
-          <Link href='/blog'><p>Blog</p></Link>
-          <Link href='/about'><p>About Us</p></Link>
+          <Link href='/news'><p>News</p></Link>
+          <Link href='/publication'><p>Publication</p></Link>
+          <Link href='/people'><p>People</p></Link>
         </div>
         <div className="col-3">
           <p>

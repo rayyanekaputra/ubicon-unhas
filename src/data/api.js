@@ -8,7 +8,6 @@ const [posts, setPosts] = useState([]);
         fetch(`https://ubi-api.onrender.com/photos`)
             .then((response) => response.json())
             .then((data) => {
-            console.log(data);
             setPosts(data);
             })
             .catch((err) => {

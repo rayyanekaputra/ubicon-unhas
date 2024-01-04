@@ -10,7 +10,7 @@ const Blog = () => {
       <section className="hero-blog">
         <div className="hero-headings">
           <h1>Ubiblog</h1>
-          <h2>Read our latest news and<br/>stories in our blog!</h2>
+          <p>Read our latest news and<br/>stories in our blog!</p>
         </div>
       </section>
       <div className="search-field-container">
