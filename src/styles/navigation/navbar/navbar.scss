@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
-.navbar-container-trans, .navbar-container-white{
+.navbar-container-trans, .navbar-container-white, .navbar-container-trans-homeCBR, .navbar-container-white-homeCBR{
     z-index: 2;
 }
 
@@ -96,3 +96,96 @@ div.navbar-container-white {
 }
 
 
+div.navbar-container-trans-homeCBR {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row; //flex horizontal
+    align-items: center; //kasih ke tengah secara vertical
+    justify-content: space-between; //kasih ke tengah secara horizontal
+
+    //https://www.w3schools.com/css/css3_transitions.asp
+    
+    transition: background-color ease 1.5s;
+    padding: 0px 120px;
+    .navbar-logo{
+        height: 36px;
+        width: 144px;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .navbar-menu{
+        display: flex;
+        flex-direction: row;
+        p{
+            color: white;
+            font-size: 16px; 
+            font-style: normal;
+            font-weight: 400;   
+            line-height: 16px; /* 100% */
+            text-decoration: none;
+            text-decoration-line: none;
+            padding: 0px 24px;
+            transition: color ease 1.5s;
+        }
+        p:hover{
+            font-weight: bold;
+            color: #774AF7;
+            transition: font-weight ease 0.5s;
+        }
+}
+}
+
+
+div.navbar-container-white-homeCBR {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row; //flex horizontal
+    align-items: center; //kasih ke tengah secara vertical
+    justify-content: space-between; //kasih ke tengah secara horizontal
+    padding: 0px 120px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
+
+    transition: background-color ease 1.5s, box-shadow ease 1.5s;
+
+    .navbar-logo{
+        height: 36px;
+        width: 144px;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .navbar-menu{
+        display: flex;
+        flex-direction: row;
+        p{
+            color: #242424;
+            font-size: 16px; 
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 100% */
+            text-decoration: none;
+            text-decoration-line: none;
+            color: #242424;
+            padding: 0px 24px;
+            transition: color ease 1.5s;
+        }
+        p:hover{
+            font-weight: bold;
+            color: #774AF7;
+            transition: font-weight ease 0.5s;
+        }
+
+        }
+}

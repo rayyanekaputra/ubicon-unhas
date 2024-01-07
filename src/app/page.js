@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef, Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import "@styles/home.scss";
+import "@styles/homeCBR.css";
 import bg from "@assets/img_hero_overlay.png";
 import bg_cta from "@assets/bg_cta.png";
 import { RendererResearch } from "@components/research/rendererResearch";
@@ -16,6 +17,12 @@ import Loading from "./loading";
 export default function Home() {
   return (
     <>
+    <section className="heroCBR">
+      <div> 
+      </div>
+    </section>
+      {/* 
+      HERO NON-CBR
       <section
         className="hero"
         style={{
@@ -42,7 +49,7 @@ export default function Home() {
         <h1>Ubicon Lab</h1>
         <h2>Ubiquitous Computing & Networking Lab.</h2>
         <p>@HASANUDDIN UNIVERSITY </p>
-      </section>
+      </section> */}
 
       <div className="carousel-running-container">
         {/* infinite slider, duplikat supaya seamless */}
