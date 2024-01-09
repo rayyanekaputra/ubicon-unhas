@@ -2,9 +2,6 @@
 import RendererNews from "@components/news/rendererNews";
 import React, { Suspense } from "react";
 import "@styles/pages/blog/blog.scss";
-import Image from "next/image";
-import { useRouter } from "next/router";
-
 //TO DO: BUAT SEARCH FIELD
 
 const Blog = () => {
@@ -13,7 +10,7 @@ const Blog = () => {
       <section className="hero-blog">
         <div className="hero-headings">
           <h1>Ubiblog</h1>
-          <h2>Read our latest news and<br/>stories in our blog!</h2>
+          <p>Read our latest news and<br/>stories in our blog!</p>
         </div>
       </section>
       <div className="search-field-container">
@@ -24,7 +21,7 @@ const Blog = () => {
           This Week
         </h3>
         <ul className="news-content-renderer">
-          <Suspense fallback = {<div>ADAKAHHH</div>}>
+          <Suspense fallback = {<div>Loading Renderer News</div>}>
             <RendererNews />
           </Suspense>
           

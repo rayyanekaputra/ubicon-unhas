@@ -3,8 +3,8 @@ li.news-content-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  width: 384px;
+  flex-grow: 1;
+  max-width: 384px;
   align-items: flex-start;
   gap: 24px;
   
@@ -18,9 +18,10 @@ li.news-content-list {
 } */
 li.news-content-list div.img-news-container{
   height: 180px;
-  width: 384px;
+  width: 100%;
   border-radius: 16px;
   display: flex;
+ 
   overflow: hidden;
   position: relative;
   background-color: #f4f4f4;
@@ -81,19 +82,11 @@ li.news-content-list.loading{
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  width: 384px;
+  width: 100%;
   align-items: flex-start;
   gap: 24px;
   animation: opacityUp 1s 0s ease infinite;
     
-  div.img-news-container{
-    height: 180px;
-    width: 384px;
-    border-radius: 16px;
-    background-color: #F4F4F4;
-    
-  
-  }
 
   div.news-content {
     width: 100%;

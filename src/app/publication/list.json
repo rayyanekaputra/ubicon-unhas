@@ -1,0 +1,1218 @@
+{
+    "search_metadata": {
+      "id": "659ba9c1a1b4238867322be0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/1e2646984caad1e2/659ba9c1a1b4238867322be0.json",
+      "created_at": "2024-01-08 07:52:33 UTC",
+      "processed_at": "2024-01-08 07:52:33 UTC",
+      "google_scholar_author_url": "https://scholar.google.com/citations?user=zOMj6CEAAAAJ&hl=en&pagesize=100",
+      "raw_html_file": "https://serpapi.com/searches/1e2646984caad1e2/659ba9c1a1b4238867322be0.html",
+      "total_time_taken": 1.04
+    },
+    "search_parameters": {
+      "engine": "google_scholar_author",
+      "author_id": "zOMj6CEAAAAJ",
+      "hl": "en",
+      "num": "100"
+    },
+    "author": {
+      "name": "Muhammad Niswar",
+      "affiliations": "Universitas Hasanuddin",
+      "email": "Verified email at unhas.ac.id",
+      "interests": [
+        {
+          "title": "Computer Network",
+          "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computer_network",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputer_network"
+        },
+        {
+          "title": "Ubiquitous Computing",
+          "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:ubiquitous_computing",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aubiquitous_computing"
+        },
+        {
+          "title": "Internet of Things",
+          "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:internet_of_things",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ainternet_of_things"
+        }
+      ],
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_128.png"
+    },
+    "articles": [
+      {
+        "title": "Design a smart waste bin for smart waste management",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:kNdYIx-mwKoC",
+        "citation_id": "zOMj6CEAAAAJ:kNdYIx-mwKoC",
+        "authors": "AS Wijaya, Z Zainuddin, M Niswar",
+        "publication": "2017 5th International Conference on Instrumentation, Control, and …, 2017",
+        "cited_by": {
+          "value": 108,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11979437825948497345",
+          "serpapi_link": "https://serpapi.com/search.json?cites=11979437825948497345&engine=google_scholar&hl=en",
+          "cites_id": "11979437825948497345"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Performance evaluation of ZigBee-based wireless sensor network for monitoring patients' pulse status",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:2osOgNQ5qMEC",
+        "citation_id": "zOMj6CEAAAAJ:2osOgNQ5qMEC",
+        "authors": "M Niswar, AA Ilham, E Palantei, RS Sadjad, A Ahmad, A Suyuti, ...",
+        "publication": "2013 international conference on information technology and electrical …, 2013",
+        "cited_by": {
+          "value": 68,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7957077477063467267",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7957077477063467267&engine=google_scholar&hl=en",
+          "cites_id": "7957077477063467267"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "IoT-based water quality monitoring system for soft-shell crab farming",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:4TOpqqG69KYC",
+        "citation_id": "zOMj6CEAAAAJ:4TOpqqG69KYC",
+        "authors": "M Niswar, S Wainalang, AA Ilham, Z Zainuddin, Y Fujaya, Z Muslimin, ...",
+        "publication": "2018 IEEE International Conference on Internet of Things and Intelligence …, 2018",
+        "cited_by": {
+          "value": 57,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12158907367336808527",
+          "serpapi_link": "https://serpapi.com/search.json?cites=12158907367336808527&engine=google_scholar&hl=en",
+          "cites_id": "12158907367336808527"
+        },
+        "year": "2018"
+      },
+      {
+        "title": "The design of wearable medical device for triaging disaster casualties in developing countries",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:hqOjcs7Dif8C",
+        "citation_id": "zOMj6CEAAAAJ:hqOjcs7Dif8C",
+        "authors": "M Niswar, AS Wijaya, M Ridwan, AA Ilham, RS Sadjad, A Vogel",
+        "publication": "2015 fifth international conference on digital information processing and …, 2015",
+        "cited_by": {
+          "value": 25,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4667618053722156602",
+          "serpapi_link": "https://serpapi.com/search.json?cites=4667618053722156602&engine=google_scholar&hl=en",
+          "cites_id": "4667618053722156602"
+        },
+        "year": "2015"
+      },
+      {
+        "title": "A low cost wearable medical device for vital signs monitoring in low-resource settings",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:aqlVkmm33-oC",
+        "citation_id": "zOMj6CEAAAAJ:aqlVkmm33-oC",
+        "authors": "M Niswar, M Nur, I Mappangara",
+        "publication": "International Journal of Electrical and Computer Engineering 9 (4), 2321, 2019",
+        "cited_by": {
+          "value": 22,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14801299971553871611",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14801299971553871611&engine=google_scholar&hl=en",
+          "cites_id": "14801299971553871611"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Pembuatan Virtual Reality Tour dengan Metode Gambar Panorama untuk Kampus Fakultas Teknik Universitas Hasanuddin",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:YOwf2qJgpHMC",
+        "citation_id": "zOMj6CEAAAAJ:YOwf2qJgpHMC",
+        "authors": "A Adityo",
+        "publication": "Univ. Nusant. PGRI Kediri 1, 1-7, 2017",
+        "cited_by": {
+          "value": 19,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6730930686041799909",
+          "serpapi_link": "https://serpapi.com/search.json?cites=6730930686041799909&engine=google_scholar&hl=en",
+          "cites_id": "6730930686041799909"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "An iot platform for urban farming",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:-f6ydRqryjwC",
+        "citation_id": "zOMj6CEAAAAJ:-f6ydRqryjwC",
+        "authors": "EK Tan, YW Chong, M Niswar, BY Ooi, A Basuki",
+        "publication": "2020 International Seminar on Intelligent Technology and Its Applications …, 2020",
+        "cited_by": {
+          "value": 16,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14610402516150447202",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14610402516150447202&engine=google_scholar&hl=en",
+          "cites_id": "14610402516150447202"
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Agussalim: Evaluated and optimized of routing model on Delay Tolerant Network (DTN) for data transmission to remote area",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:8k81kl-MbHgC",
+        "citation_id": "zOMj6CEAAAAJ:8k81kl-MbHgC",
+        "authors": "AA Ilham, M Niswar",
+        "publication": "Proceedings of FORTEI, Indonesia University Jakarta, 24-28, 2012",
+        "cited_by": {
+          "value": 16,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13671077034110945869",
+          "serpapi_link": "https://serpapi.com/search.json?cites=13671077034110945869&engine=google_scholar&hl=en",
+          "cites_id": "13671077034110945869"
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Supportive information to find victims from aerial video in search and rescue operation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:ZeXyd9-uunAC",
+        "citation_id": "zOMj6CEAAAAJ:ZeXyd9-uunAC",
+        "authors": "S Kashihara, MA Wicaksono, D Fall, M Niswar",
+        "publication": "2019 IEEE International Conference on Internet of Things and Intelligence …, 2019",
+        "cited_by": {
+          "value": 12,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15050180229707593769",
+          "serpapi_link": "https://serpapi.com/search.json?cites=15050180229707593769&engine=google_scholar&hl=en",
+          "cites_id": "15050180229707593769"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "VoIP technologies",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:d1gkVwhDpl0C",
+        "citation_id": "zOMj6CEAAAAJ:d1gkVwhDpl0C",
+        "authors": "S Kashihara",
+        "publication": "BoD–Books on Demand, 2011",
+        "cited_by": {
+          "value": 12,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7984250772219970170",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7984250772219970170&engine=google_scholar&hl=en",
+          "cites_id": "7984250772219970170"
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Enhance midwifery student skills about active management third stage labor via learning media",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:hMod-77fHWUC",
+        "citation_id": "zOMj6CEAAAAJ:hMod-77fHWUC",
+        "authors": "AR Hasyim, S Syarif, M Ahmad, M Niswar, AM Nasrudin",
+        "publication": "Gaceta Sanitaria 35, S284-S287, 2021",
+        "cited_by": {
+          "value": 9,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7097015002483385429",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7097015002483385429&engine=google_scholar&hl=en",
+          "cites_id": "7097015002483385429"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "LouPe: LoRa Performance Measurement Tool",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:QIV2ME_5wuYC",
+        "citation_id": "zOMj6CEAAAAJ:QIV2ME_5wuYC",
+        "authors": "MRE Arlin, M Niswar, A Adnan, D Fall, S Kashihara",
+        "publication": "2018 2nd East Indonesia Conference on Computer and Information Technology …, 2018",
+        "cited_by": {
+          "value": 9,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14912539445517387255",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14912539445517387255&engine=google_scholar&hl=en",
+          "cites_id": "14912539445517387255"
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Handover management for VoWLAN based on estimation of AP queue length and frame retries",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:u-x6o8ySG0sC",
+        "citation_id": "zOMj6CEAAAAJ:u-x6o8ySG0sC",
+        "authors": "M Niswar, S Kashihara, K Tsukamoto, Y Kadobayashi, S Yamaguchi",
+        "publication": "IEICE TRANSACTIONS on Information and Systems 92 (10), 1847-1856, 2009",
+        "cited_by": {
+          "value": 9,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15620175590188124325",
+          "serpapi_link": "https://serpapi.com/search.json?cites=15620175590188124325&engine=google_scholar&hl=en",
+          "cites_id": "15620175590188124325"
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Analisis kinerja framework big data pada cluster tervirtualisasi: Hadoop mapreduce dan apache spark",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:M3ejUd6NZC8C",
+        "citation_id": "zOMj6CEAAAAJ:M3ejUd6NZC8C",
+        "authors": "AM Ryanto, AA Ilham, M Niswar",
+        "publication": "Makassar, 2017",
+        "cited_by": {
+          "value": 8,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7111073779655655469",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7111073779655655469&engine=google_scholar&hl=en",
+          "cites_id": "7111073779655655469"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "MS-initiated handover decision criteria for VoIP over IEEE 802.16 e",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:qjMakFHDy7sC",
+        "citation_id": "zOMj6CEAAAAJ:qjMakFHDy7sC",
+        "authors": "M Niswar, S Kashihara, Y Taenaka, K Tsukamoto, Y Kadobayashi, ...",
+        "publication": "2009 IEEE Pacific Rim Conference on Communications, Computers and Signal …, 2009",
+        "cited_by": {
+          "value": 7,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10832011511148376243",
+          "serpapi_link": "https://serpapi.com/search.json?cites=10832011511148376243&engine=google_scholar&hl=en",
+          "cites_id": "10832011511148376243"
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Memory sharing management on virtual private server",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:UebtZRa9Y70C",
+        "citation_id": "zOMj6CEAAAAJ:UebtZRa9Y70C",
+        "authors": "M Niswar, AA Sabri, E Warni, MN Musa",
+        "publication": "International Conference on ICT for Smart Society, 1-4, 2013",
+        "cited_by": {
+          "value": 6,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3358070731480775646",
+          "serpapi_link": "https://serpapi.com/search.json?cites=3358070731480775646&engine=google_scholar&hl=en",
+          "cites_id": "3358070731480775646"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Indrabayu, Zaenab Muslimin, Tadjuddin Waris, Puput Dani Prasetyo Adi",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:RHpTSmoSYBkC",
+        "citation_id": "zOMj6CEAAAAJ:RHpTSmoSYBkC",
+        "authors": "M Niswar, AA Ilham, E Palantei, RS Sadjad, A Ahmad, A Suyuti",
+        "publication": "Performance evaluation of ZigBee-based wireless sensor network for …, 2013",
+        "cited_by": {
+          "value": 6,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8983020726275817682",
+          "serpapi_link": "https://serpapi.com/search.json?cites=8983020726275817682&engine=google_scholar&hl=en",
+          "cites_id": "8983020726275817682"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Seamless vertical handover management for VoIP over intermingled IEEE 802.11 g and IEEE 802.16 e",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:u5HHmVD_uO8C",
+        "citation_id": "zOMj6CEAAAAJ:u5HHmVD_uO8C",
+        "authors": "M Niswar, S Kashihara, Y Taenaka, K Tsukamoto, Y Kadobayashi, ...",
+        "publication": "8th Asia-Pacific Symposium on Information and Telecommunication Technologies …, 2010",
+        "cited_by": {
+          "value": 6,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7434552625258046326",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7434552625258046326&engine=google_scholar&hl=en",
+          "cites_id": "7434552625258046326"
+        },
+        "year": "2010"
+      },
+      {
+        "title": "Design and Implementation of IoT-Based Aeroponic Farming System",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:GnPB-g6toBAC",
+        "citation_id": "zOMj6CEAAAAJ:GnPB-g6toBAC",
+        "authors": "M Niswar, Z Tahir, CY Wey",
+        "publication": "2022 IEEE International Conference on Cybernetics and Computational …, 2022",
+        "cited_by": {
+          "value": 5,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10279773267034738221",
+          "serpapi_link": "https://serpapi.com/search.json?cites=10279773267034738221&engine=google_scholar&hl=en",
+          "cites_id": "10279773267034738221"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "De-sign a Smart Waste Bin for Smart Waste Management System",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:ZHo1McVdvXMC",
+        "citation_id": "zOMj6CEAAAAJ:ZHo1McVdvXMC",
+        "authors": "AS Wijaya, Z Zainuddin, M Niswar",
+        "publication": "5th International conference on Instrumentation, control and Automation, 2017",
+        "cited_by": {
+          "value": 5,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2493082422960659880",
+          "serpapi_link": "https://serpapi.com/search.json?cites=2493082422960659880&engine=google_scholar&hl=en",
+          "cites_id": "2493082422960659880"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "An automated feeding system for soft shell crab",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:3fE2CSJIrl8C",
+        "citation_id": "zOMj6CEAAAAJ:3fE2CSJIrl8C",
+        "authors": "M Niswar, Z Zainuddin, Y Fujaya, ZM Putra",
+        "publication": "Indonesian Journal of Electrical Engineering and Computer Science 5 (3), 564-568, 2017",
+        "cited_by": {
+          "value": 5,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7629951872082254038",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7629951872082254038&engine=google_scholar&hl=en",
+          "cites_id": "7629951872082254038"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Optimisasi Kinerja Manajemen Buffer Pada Jaringan Delay Tolerant Network (Dtn) Untuk Jenis Routing Multi Copy",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:isC4tDSrTZIC",
+        "citation_id": "zOMj6CEAAAAJ:isC4tDSrTZIC",
+        "authors": "A Muis, M Niswar, AA Ilham, J Elektro, P Informatika, F Teknik, ...",
+        "publication": "Universitas Indonesia Timur Makassar, 2013",
+        "cited_by": {
+          "value": 5,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12378233845841751058",
+          "serpapi_link": "https://serpapi.com/search.json?cites=12378233845841751058&engine=google_scholar&hl=en",
+          "cites_id": "12378233845841751058"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Seamless VoWLAN handoff management based on estimation of AP queue length and frame retries",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:9yKSN-GCB0IC",
+        "citation_id": "zOMj6CEAAAAJ:9yKSN-GCB0IC",
+        "authors": "M Niswar, E Horiuchi, S Kashihara, K Tsukamoto, Y Kadobayashi, ...",
+        "publication": "2009 IEEE International Conference on Pervasive Computing and Communications …, 2009",
+        "cited_by": {
+          "value": 5,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5319263267780911159",
+          "serpapi_link": "https://serpapi.com/search.json?cites=5319263267780911159&engine=google_scholar&hl=en",
+          "cites_id": "5319263267780911159"
+        },
+        "year": "2009"
+      },
+      {
+        "title": "The Effect of Web-based Learning Media Towards the Skills of the Second Stage of Childbirth Care Practicum in D-III Midwifery Students",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:NMxIlDl6LWMC",
+        "citation_id": "zOMj6CEAAAAJ:NMxIlDl6LWMC",
+        "authors": "S Hardianti, S Syarif, M Ahmad, M Niswar, S Stang, NLPH Mastuti",
+        "publication": "International Journal of Health and Medical Sciences 4 (2), 226-231, 2021",
+        "cited_by": {
+          "value": 4,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16359855044082998739",
+          "serpapi_link": "https://serpapi.com/search.json?cites=16359855044082998739&engine=google_scholar&hl=en",
+          "cites_id": "16359855044082998739"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Mapping the pattern of spread of tuberculosis cases using spatio-temporal approach in makassar–South sulawesi",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:dhFuZR0502QC",
+        "citation_id": "zOMj6CEAAAAJ:dhFuZR0502QC",
+        "authors": "M Resha, A Suyuti, RS Sadjad, M Niswar",
+        "publication": "2019 International Conference on Computer, Control, Informatics and Its …, 2019",
+        "cited_by": {
+          "value": 4,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12600497107085488706",
+          "serpapi_link": "https://serpapi.com/search.json?cites=12600497107085488706&engine=google_scholar&hl=en",
+          "cites_id": "12600497107085488706"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Website phising detection application using Support Vector Machine (SVM)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:YFjsv_pBGBYC",
+        "citation_id": "zOMj6CEAAAAJ:YFjsv_pBGBYC",
+        "authors": "W Diki, N Muhammad",
+        "publication": "Journal of Information Technology and Its Utilization 5 (1), 18-24, 2022",
+        "cited_by": {
+          "value": 3,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1410347506836094385",
+          "serpapi_link": "https://serpapi.com/search.json?cites=1410347506836094385&engine=google_scholar&hl=en",
+          "cites_id": "1410347506836094385"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Progressive Web Apps Development and Analysis with Angular Framework and Service Worker for E-Commerce System",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:bEWYMUwI8FkC",
+        "citation_id": "zOMj6CEAAAAJ:bEWYMUwI8FkC",
+        "authors": "Z Tahir, AA Ilham, M Niswar, AA Fauzy",
+        "publication": "2021 IEEE International Conference on Computing (ICOCO), 192-195, 2021",
+        "cited_by": {
+          "value": 3,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15195389093566865712",
+          "serpapi_link": "https://serpapi.com/search.json?cites=15195389093566865712&engine=google_scholar&hl=en",
+          "cites_id": "15195389093566865712"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Sosialisasi Metode Berfikir Komputasional pada Pendidikan Dasar dan Menengah di Lingkup Sulawesi Selatan",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:_Qo2XoVZTnwC",
+        "citation_id": "zOMj6CEAAAAJ:_Qo2XoVZTnwC",
+        "authors": "M Niswar, AA Ilham, Z Zainuddin, A Adnan, E Warni, I Aswad, Z Muslimin",
+        "publication": "JURNAL TEPAT: Teknologi Terapan untuk Pengabdian Masyarakat 4 (1), 46-52, 2021",
+        "cited_by": {
+          "value": 3,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16951895731873132834",
+          "serpapi_link": "https://serpapi.com/search.json?cites=16951895731873132834&engine=google_scholar&hl=en",
+          "cites_id": "16951895731873132834"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "The effect of recirculating aquaculture system on blue swimming crab (Portunus pelagicus Linnaeus, 1758) instar crablet growth and survival rate",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:e5wmG9Sq2KIC",
+        "citation_id": "zOMj6CEAAAAJ:e5wmG9Sq2KIC",
+        "authors": "Y Fujaya, H Haryati, S Sriwulan, B T Nurkamilah, M Muawwana, M Niswar",
+        "publication": "http://www. bioflux. com. ro/aacl 14 (2), 2021",
+        "cited_by": {
+          "value": 3,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17174371701318147287",
+          "serpapi_link": "https://serpapi.com/search.json?cites=17174371701318147287&engine=google_scholar&hl=en",
+          "cites_id": "17174371701318147287"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "A reliable offline web system for small and medium industries",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:mB3voiENLucC",
+        "citation_id": "zOMj6CEAAAAJ:mB3voiENLucC",
+        "authors": "Z Tahir, AR Dasmito, M Niswar",
+        "publication": "MATEC Web of Conferences 331, 06007, 2020",
+        "cited_by": {
+          "value": 3,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4461855036560352275",
+          "serpapi_link": "https://serpapi.com/search.json?cites=4461855036560352275&engine=google_scholar&hl=en",
+          "cites_id": "4461855036560352275"
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Crab Molting Identification using Machine Learning Classifiers",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:M3NEmzRMIkIC",
+        "citation_id": "zOMj6CEAAAAJ:M3NEmzRMIkIC",
+        "authors": "RR Baharuddin, M Niswar, AA Ilham, S Kashihara",
+        "publication": "2021 International Seminar on Machine Learning, Optimization, and Data …, 2022",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1560614364441933804",
+          "serpapi_link": "https://serpapi.com/search.json?cites=1560614364441933804&engine=google_scholar&hl=en",
+          "cites_id": "1560614364441933804"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Deteksi Kepiting Molting Menggunakan Teknik Klasifikasi Machine Learning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:vV6vV6tmYwMC",
+        "citation_id": "zOMj6CEAAAAJ:vV6vV6tmYwMC",
+        "authors": "RR Baharuddin, M Niswar, AA Ilham",
+        "publication": "Jurnal J-Ensitec: Vol 8 (01), 2021",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18142728322361948921",
+          "serpapi_link": "https://serpapi.com/search.json?cites=18142728322361948921&engine=google_scholar&hl=en",
+          "cites_id": "18142728322361948921"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Detection of Megalopa Phase Crab Larvae Using Digital Image Processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:qUcmZB5y_30C",
+        "citation_id": "zOMj6CEAAAAJ:qUcmZB5y_30C",
+        "authors": "N Nurlaela, M Niswar, I Nurtanio, Y Fujaya, S Kashihara, D Fall",
+        "publication": "2019 International Seminar on Research of Information Technology and …, 2019",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10832892333325791691",
+          "serpapi_link": "https://serpapi.com/search.json?cites=10832892333325791691&engine=google_scholar&hl=en",
+          "cites_id": "10832892333325791691"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "The perspectives of design thinking method on computer network design and implementation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:IWHjjKOFINEC",
+        "citation_id": "zOMj6CEAAAAJ:IWHjjKOFINEC",
+        "authors": "Z Tahir, AA Ilham, M Niswar, D Djamaluddin",
+        "publication": "2019 Fourth International Conference on Informatics and Computing (ICIC), 1-5, 2019",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4686955486109774009",
+          "serpapi_link": "https://serpapi.com/search.json?cites=4686955486109774009&engine=google_scholar&hl=en",
+          "cites_id": "4686955486109774009"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Crab Larvae Counter Using Image Processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:7PzlFSSx8tAC",
+        "citation_id": "zOMj6CEAAAAJ:7PzlFSSx8tAC",
+        "authors": "F Zakiyabarsi, M Niswar, Z Zainuddin",
+        "publication": "EPI International Journal of Engineering 2 (2), 127-131, 2019",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6843408763781260502",
+          "serpapi_link": "https://serpapi.com/search.json?cites=6843408763781260502&engine=google_scholar&hl=en",
+          "cites_id": "6843408763781260502"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Pengembangan Media Proxy untuk Mendukung Komunikasi Real Time Berbasis Web (WebRTC)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:mVmsd5A6BfQC",
+        "citation_id": "zOMj6CEAAAAJ:mVmsd5A6BfQC",
+        "authors": "I Aswad, M Niswar, AA Ilham",
+        "publication": "Jurnal Penelitian Enjiniring 21 (2), 45-51, 2017",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2913098606169542924",
+          "serpapi_link": "https://serpapi.com/search.json?cites=2913098606169542924&engine=google_scholar&hl=en",
+          "cites_id": "2913098606169542924"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Pengembangan Sistem Pemantauan Kesehatan Pasien Menggunakan Sensor Nirkabel",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:Tyk-4Ss8FVUC",
+        "citation_id": "zOMj6CEAAAAJ:Tyk-4Ss8FVUC",
+        "authors": "AA Ilham, M Niswar, A Achmad, T Waris, E Palantei",
+        "publication": "E-Indonesia Initiatives (ell-forum), Institut Teknologi Bandung ICT For …, 2013",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1913085884130311327",
+          "serpapi_link": "https://serpapi.com/search.json?cites=1913085884130311327&engine=google_scholar&hl=en",
+          "cites_id": "1913085884130311327"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Endto-End Handover Management for VoIP Communications in Ubiquitous Wireless Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:lSLTfruPkqcC",
+        "citation_id": "zOMj6CEAAAAJ:lSLTfruPkqcC",
+        "authors": "S Kashihara, M Niswar, Y Taenaka, K Tsukamoto, S Yamaguchi, Y Oie",
+        "publication": "VoIP Technologies, Shigeru Kashihara (Ed.), 295-320, 2011",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7497240382165799902",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7497240382165799902&engine=google_scholar&hl=en",
+          "cites_id": "7497240382165799902"
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Rate-based congestion control mechanism for multicast communication",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:UeHWp8X0CEIC",
+        "citation_id": "zOMj6CEAAAAJ:UeHWp8X0CEIC",
+        "authors": "M Niswar, AH Thamrin",
+        "publication": "Proceedings of the 4 th WSEAS International Conference on Telecommunications …, 2005",
+        "cited_by": {
+          "value": 2,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16288939182868280888",
+          "serpapi_link": "https://serpapi.com/search.json?cites=16288939182868280888&engine=google_scholar&hl=en",
+          "cites_id": "16288939182868280888"
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Design and Implementation of an Automated Indoor Hydroponic Farming System based on the Internet of Things",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:70eg2SAEIzsC",
+        "citation_id": "zOMj6CEAAAAJ:70eg2SAEIzsC",
+        "authors": "M Niswar",
+        "publication": "International Journal of Computing and Digital Systems 14 (1), 1-xx, 2023",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11571636982387395207",
+          "serpapi_link": "https://serpapi.com/search.json?cites=11571636982387395207&engine=google_scholar&hl=en",
+          "cites_id": "11571636982387395207"
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Evaluation of Academic Information System Using Delone and Mclane Success Model: A Case Study ff Academic Information System Hasanuddin University",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:JV2RwH3_ST0C",
+        "citation_id": "zOMj6CEAAAAJ:JV2RwH3_ST0C",
+        "authors": "A Rachmat, B Hamzah, M Niswar",
+        "publication": "Jurnal Sistem Informasi 18 (1), 62-75, 2022",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3765260612624729807",
+          "serpapi_link": "https://serpapi.com/search.json?cites=3765260612624729807&engine=google_scholar&hl=en",
+          "cites_id": "3765260612624729807"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Lightweight messaging protocol for precision agriculture",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:HDshCWvjkbEC",
+        "citation_id": "zOMj6CEAAAAJ:HDshCWvjkbEC",
+        "authors": "EK Tan, YW Chong, RA Setyawan, M Niswar, KT Mya",
+        "publication": "2021 International Conference on Information Networking (ICOIN), 403-407, 2021",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2346405321954283597",
+          "serpapi_link": "https://serpapi.com/search.json?cites=2346405321954283597&engine=google_scholar&hl=en",
+          "cites_id": "2346405321954283597"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "e-Canteen for the Smart Campus Application",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:blknAaTinKkC",
+        "citation_id": "zOMj6CEAAAAJ:blknAaTinKkC",
+        "authors": "ZB Hasanuddin, M Niswar, A Fadhila, MA Wardana",
+        "publication": "Advances in Information and Communication: Proceedings of the 2020 Future of …, 2020",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14204760753478764408",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14204760753478764408&engine=google_scholar&hl=en",
+          "cites_id": "14204760753478764408"
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Mobile Application For Mud Crab Weight Estimation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:9ZlFYXVOiuMC",
+        "citation_id": "zOMj6CEAAAAJ:9ZlFYXVOiuMC",
+        "authors": "N Padaunan, Z Zainuddin, M Niswar",
+        "publication": "2018 2nd East Indonesia Conference on Computer and Information Technology …, 2018",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14604383222982167244",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14604383222982167244&engine=google_scholar&hl=en",
+          "cites_id": "14604383222982167244"
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Pengaruh Image Engagement pada Aplikasi Parasit Malaria",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:L8Ckcad2t8MC",
+        "citation_id": "zOMj6CEAAAAJ:L8Ckcad2t8MC",
+        "authors": "MI Sabir, M Niswar, I Indrabayu",
+        "publication": "Jurnal Penelitian Enjiniring 22 (1), 34-37, 2018",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1007246128249748993",
+          "serpapi_link": "https://serpapi.com/search.json?cites=1007246128249748993&engine=google_scholar&hl=en",
+          "cites_id": "1007246128249748993"
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Vertical Handover Management for VoIP Session over Broadband Wireless Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:LkGwnXOMwfcC",
+        "citation_id": "zOMj6CEAAAAJ:LkGwnXOMwfcC",
+        "authors": "M Niswar, S Kashihara, S Yamaguchi",
+        "publication": "Scientific Research Publishing, 2013",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14616419472425860065",
+          "serpapi_link": "https://serpapi.com/search.json?cites=14616419472425860065&engine=google_scholar&hl=en",
+          "cites_id": "14616419472425860065"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Sosialisasi Penerapan Teknologi Monitoring Tanaman Hidroponik di PPMI Shohwatul Is' ad Kabupaten Pangkep",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:rO6llkc54NcC",
+        "citation_id": "zOMj6CEAAAAJ:rO6llkc54NcC",
+        "authors": "Z Tahir, AA Ilham, M Niswar, A Adnan, Z Zainuddin, AW Paundu, W Wardi, ...",
+        "publication": "JURNAL TEPAT: Teknologi Terapan untuk Pengabdian Masyarakat 6 (2), 436-443, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Chili Quality Classification using Convolution Neural Network",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:SeFeTyx0c_EC",
+        "citation_id": "zOMj6CEAAAAJ:SeFeTyx0c_EC",
+        "authors": "W Adam, M Niswar",
+        "publication": "2023 International Conference on Computer, Control, Informatics and its …, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Landslide Susceptibility Zoning Using Fuzzy Logic Algorithm & GIS: Study Case In Majene, West Sulawesi",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:HoB7MX3m0LUC",
+        "citation_id": "zOMj6CEAAAAJ:HoB7MX3m0LUC",
+        "authors": "Z Zainuddin, M Niswar, H Nirwana",
+        "publication": "2023 International Conference on Computer, Control, Informatics and its …, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Signature Verification Based on Dex CRC and Blake2 Algorithm to Prevent Reverse Engineering Attack in Android Application.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:pqnbT2bcN3wC",
+        "citation_id": "zOMj6CEAAAAJ:pqnbT2bcN3wC",
+        "authors": "M Niswar, AW Paundu",
+        "publication": "International Journal of Interactive Mobile Technologies 17 (19), 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Wearable Wireless Sensor Network for Mitigating COVID-19 Transmission Through Physical Distancing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:g5m5HwL7SMYC",
+        "citation_id": "zOMj6CEAAAAJ:g5m5HwL7SMYC",
+        "authors": "M Niswar, MAF Haris, A Basuki",
+        "publication": "Journal of Information Technology and Computer Science 8 (2), 170-178, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Duty-Cycle Optimization Method for Improving Battery-Powered DC Sensor Node Lifetime in Wireless Sensor Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:M05iB0D1s5AC",
+        "citation_id": "zOMj6CEAAAAJ:M05iB0D1s5AC",
+        "authors": "Y Sopian, FA Samman, A Suyuti, M Niswar",
+        "publication": "2023 International Seminar on Intelligent Technology and Its Applications …, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Pixel-based Weight Estimation of Vannamei Shrimp Using Digital Image Processing: A Solution for Precise Feeding Management in Aquaculture",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:ldfaerwXgEUC",
+        "citation_id": "zOMj6CEAAAAJ:ldfaerwXgEUC",
+        "authors": "H Mubarak, Z Zainuddin, M Niswar",
+        "publication": "2023 International Seminar on Intelligent Technology and Its Applications …, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Implementation Of Modified K-Nearest Neighbor Algorithm In Electronic Nose System To Detect Gastroesophageal Reflux Disease",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:2P1L_qKh6hAC",
+        "citation_id": "zOMj6CEAAAAJ:2P1L_qKh6hAC",
+        "authors": "AM Fajrin, M Niswar, AW Paundu",
+        "publication": "2023 International Seminar on Intelligent Technology and Its Applications …, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Strategi Pembelajaran Menggunakan Metaverse Bagi Guru Di Madrasah Aliyah Al Hidayah",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:RYcK_YlVTxYC",
+        "citation_id": "zOMj6CEAAAAJ:RYcK_YlVTxYC",
+        "authors": "I Indrabayu, Z Zainuddin, I Nurtanio, AA Ilham, M Niswar, A Adnan, ...",
+        "publication": "JURNAL TEPAT: Teknologi Terapan untuk Pengabdian Masyarakat 5 (2), 254-262, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "IoT-based Experimental Aquarium Environment for Observing Crabs",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:RGFaLdJalmkC",
+        "citation_id": "zOMj6CEAAAAJ:RGFaLdJalmkC",
+        "authors": "S Nakajima, D Sumiya, M Morii, N Mizutani, A Shimano, M Niswar, ...",
+        "publication": "2022 IEEE International Conference on Internet of Things and Intelligence …, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Web-based student academic performance evaluation system using data mining",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:ns9cj8rnVeAC",
+        "citation_id": "zOMj6CEAAAAJ:ns9cj8rnVeAC",
+        "authors": "A Ilham, I Aswad, M Niswar, AW Paundu, N Mardhatillah",
+        "publication": "AIP Conference Proceedings 2543 (1), 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "School Zoning System for Student Admission using Constrained K-Means Algorithms",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:J_g5lzvAfSwC",
+        "citation_id": "zOMj6CEAAAAJ:J_g5lzvAfSwC",
+        "authors": "AAN Risal, Z Zainuddin, M Niswar",
+        "publication": "2022 IEEE International Conference on Communication, Networks and Satellite …, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Face Recognition in Mobile-Based Test Systems Using FaceNet",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:NaGl4SEjCO4C",
+        "citation_id": "zOMj6CEAAAAJ:NaGl4SEjCO4C",
+        "authors": "SA Putra, Z Zainuddin, M Niswar",
+        "publication": "2022 8th International Conference on Education and Technology (ICET), 107-111, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "IoT and AI-enabled Physical Distance Monitoring Application to Prevent COVID19 Transmission",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:O3NaXMp0MMsC",
+        "citation_id": "zOMj6CEAAAAJ:O3NaXMp0MMsC",
+        "authors": "MD Furqan, A Achmad, M Niswar",
+        "publication": "2022 IEEE International Conference on Cybernetics and Computational …, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Construction of IoT-based Experiment Environment for Crab Farming",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:BqipwSGYUEgC",
+        "citation_id": "zOMj6CEAAAAJ:BqipwSGYUEgC",
+        "authors": "S Nakajima, D Sumiya, M Morii, N Mizutani, A Shimano, M Niswar, ...",
+        "publication": "IEICE Technical Report; IEICE Tech. Rep. 121 (411), 13-18, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Pengujian Teknologi Augmented Reality untuk Media Pembelajaran Anatomi dan Fisiologi Tubuh Manusia Berbasis Android",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:3s1wT3WcHBgC",
+        "citation_id": "zOMj6CEAAAAJ:3s1wT3WcHBgC",
+        "authors": "AD Rahmasari, M Niswar, Z Tahir",
+        "publication": "Prosiding Seminar Nasional Elektroteknik dan Teknologi Informasi 1 (1), 318-324, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Application of JavaScript Code Similarity Detection for Assessment of Web Programming Assignment.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:35N4QoGY0k4C",
+        "citation_id": "zOMj6CEAAAAJ:35N4QoGY0k4C",
+        "authors": "M Niswar",
+        "publication": "EPI International Journal of Engineering 5 (2), 81-85, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Sosialisasi Sistem Informasi Berbasis Android Untuk Penyuluhan Faktor Resiko Penyakit Jantung Koroner di Kantor Kecamatan Bontomarannu, Kabupaten Gowa",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:r0BpntZqJG4C",
+        "citation_id": "zOMj6CEAAAAJ:r0BpntZqJG4C",
+        "authors": "Z Tahir, AA Ilham, M Niswar, Z Zainuddin, I Aswad, MAFI Oemar",
+        "publication": "JURNAL TEPAT: Teknologi Terapan untuk Pengabdian Masyarakat 4 (2), 177-183, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "DETEKSI KEPITING MOLTING MENGGUNAKAN TEKNIK KLASIFIKASI MACHINE LEARNING: Indonesia",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:iH-uZ7U-co4C",
+        "citation_id": "zOMj6CEAAAAJ:iH-uZ7U-co4C",
+        "authors": "M Niswar, AA Ilham",
+        "publication": "J-ENSITEC 8 (01), 599-610, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Design of Water Quality Monitoring System for Crab Larvae using IOT",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:hFOr9nPyWt4C",
+        "citation_id": "zOMj6CEAAAAJ:hFOr9nPyWt4C",
+        "authors": "W Sofyan, M Niswar, A Achmad",
+        "publication": "EPI International Journal of Engineering 3 (1), 46-49, 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Sistem Monitoring Kualitas Siaran KompasTV",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:R3hNpaxXUhUC",
+        "citation_id": "zOMj6CEAAAAJ:R3hNpaxXUhUC",
+        "authors": "IW Suparno, M Niswar",
+        "publication": "JURNAL IT 9 (3), 225-227, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Performance Analysis of Big Data Frameworks on Virtualized Clusters",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:4DMP91E08xMC",
+        "citation_id": "zOMj6CEAAAAJ:4DMP91E08xMC",
+        "authors": "AA Ilham, M Niswar, AM Ryanto",
+        "publication": "2018 Third International Conference on Informatics and Computing (ICIC), 1-4, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Desain Perangkat Medis dengan Konsumsi Daya Rendah untuk Mengukur Tanda Vital Pasien",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:Wp0gIr-vW9MC",
+        "citation_id": "zOMj6CEAAAAJ:Wp0gIr-vW9MC",
+        "authors": "M Nur, M Niswar, AA Ilham",
+        "publication": "Jurnal Penelitian Enjiniring 21 (2), 91-96, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "DESAIN DAN IMPLEMENTASI TEKNOLOGI MOBILE BACKEND AS A SERVICE (MBaaS) PADA APLIKASI LAYANAN WEB",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:MXK_kJrjxJIC",
+        "citation_id": "zOMj6CEAAAAJ:MXK_kJrjxJIC",
+        "authors": "S Syahbudin, AA Ilham, M Niswar",
+        "publication": "Jurnal INSYPRO (Information System and Processing) 2 (1), 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Prediksi Tingkat Kelulusan Mahasiswa Menggunakan Mapreduce",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:KlAtU1dfN6UC",
+        "citation_id": "zOMj6CEAAAAJ:KlAtU1dfN6UC",
+        "authors": "M Awaluddin, M Niswar, AA Ilham",
+        "publication": "JURNAL IT 8 (3), 158-166, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Analisis Kinerja Electronic Triage Tag untuk Tanggap Darurat Medis",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:IjCSPb-OGe4C",
+        "citation_id": "zOMj6CEAAAAJ:IjCSPb-OGe4C",
+        "authors": "M Niswar, AA Ilham, A Suyuti, Z Muslimin, PDP Adi",
+        "publication": "e-Indonesia Initiatives Forum 2013, 2013",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Memory Sharing Management on Virtual Private Server",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:Se3iqnhoufwC",
+        "citation_id": "zOMj6CEAAAAJ:Se3iqnhoufwC",
+        "authors": "MMN Muhammad Niswar, Sabri AA, Warni E",
+        "publication": "ICT for Smart Society (ICISS), 2013",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Evaluasi dan Optimisasi Model Routing pada Delay Tolerant Network (DTN) untuk Pengiriman Data ke Desa Terpencil",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:roLk4NBRz8UC",
+        "citation_id": "zOMj6CEAAAAJ:roLk4NBRz8UC",
+        "authors": "AA Ilham, M Niswar",
+        "publication": "Prosiding Konferensi Nasional Forum Teknik Elektro Indonesia (FORTEI 2012), 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Kinerja Hypervisor pada Mesin Virtual Multiplatform Berbasis Cloud Computing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:ufrVoPGSRksC",
+        "citation_id": "zOMj6CEAAAAJ:ufrVoPGSRksC",
+        "authors": "AA Ilham, M Niswar",
+        "publication": "Jurnal Ristek, Risek Teknik Elektro, 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "EVALUASI KINERJA PROTOKOL ROUTING PADA DELAY TOLERANT NETWORK",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:zYLM7Y9cAGgC",
+        "citation_id": "zOMj6CEAAAAJ:zYLM7Y9cAGgC",
+        "authors": "M Niswar",
+        "publication": "PROSIDING HASIL PENELITIAN FAKULTAS TEKNIK 6 (1), 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Meningkatkan Kinerja Java Virtual Machine dengan Mengoptimalkan Peran Garbage Collector",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:eQOLeE2rZwMC",
+        "citation_id": "zOMj6CEAAAAJ:eQOLeE2rZwMC",
+        "authors": "AA Ilham, M Niswar, A Suyuti, IB Amirullah",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Handover management for real-time application over multi-homed broadband wireless access networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:W7OEmFMy1HYC",
+        "citation_id": "zOMj6CEAAAAJ:W7OEmFMy1HYC",
+        "authors": "M Niswar",
+        "publication": "(No Title), 2010",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "Vertical handover management for VoIP over multi-homed heterogeneous wireless networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:TQgYirikUcIC",
+        "citation_id": "zOMj6CEAAAAJ:TQgYirikUcIC",
+        "authors": "M Niswar",
+        "publication": "電子情報通信学会技術研究報告= IEICE technical report: 信学技報 109 (441), 59-64, 2010",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "Internet Engineering Task Force Muhammad Niswar Internet Draft Shigeru Kashihara Expires: June 2010 Kazuya Tsukamoto Youki Kadobayashi",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:_FxGoFyzp5QC",
+        "citation_id": "zOMj6CEAAAAJ:_FxGoFyzp5QC",
+        "authors": "S Yamaguchi",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Clustering Tuberculosis Menggunakan Algoritma….. dengan Python Di Makassar Tahun 2017-2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:maZDTaKrznsC",
+        "citation_id": "zOMj6CEAAAAJ:maZDTaKrznsC",
+        "authors": "M Resha, A Suyuti, RS Sadjad, M Niswar",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Report on Construction of an Experimental Environment for Fisheries using IoT",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:TFP_iSt0sucC",
+        "citation_id": "zOMj6CEAAAAJ:TFP_iSt0sucC",
+        "authors": "S Nakajima, D Sumiya, M Morii, N Mizutani, A Shimano, M Niswar, ...",
+        "publication": "IEICE Technical Report; IEICE Tech. Rep., 0",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Model Artificial Neural Network (ANN) dan Multi-Layer Perceptron (MLP) untuk Prediksi Penyebaran Kasus Tuberkulosis.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:4JMBOYKVnBMC",
+        "citation_id": "zOMj6CEAAAAJ:4JMBOYKVnBMC",
+        "authors": "M Resha, A Suyuti, RS Sadjad, M Niswar",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Performance Evaluation of IEEE 802.15. 4 based Wireless Sensor Network for Monitoring Patients’ Pulse Status",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:hC7cP41nSMkC",
+        "citation_id": "zOMj6CEAAAAJ:hC7cP41nSMkC",
+        "authors": "M Niswar, AA Ilham, PDP Adi",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "EVALUASI KINERJA JARINGAN SENSOR NIRKABEL IEEE 802.15. 4 PEMANTAU DENYUT NADI PASIEN",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:WF5omc3nYNoC",
+        "citation_id": "zOMj6CEAAAAJ:WF5omc3nYNoC",
+        "authors": "M Niswar, AA Ilham, RS Sadjad, Z Muslimin, A Suyuti, I Amirullah, T Waris, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Konstruksi Sistem Informasi Medis Multisensor Berbasis Web Service",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:YsMSGLbcyi4C",
+        "citation_id": "zOMj6CEAAAAJ:YsMSGLbcyi4C",
+        "authors": "AT Parawangsa, EP Hasradin, AAIM Niswar",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Kata Kunci: ZigBee, Mikrokontroller ATmega 328, Pulse Sensor, Multi-peer.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zOMj6CEAAAAJ&pagesize=100&citation_for_view=zOMj6CEAAAAJ:Y0pCki6q_DkC",
+        "citation_id": "zOMj6CEAAAAJ:Y0pCki6q_DkC",
+        "authors": "M Niswar, AA Ilham, RS Sadjad, Z Muslimin, A Suyuti, I Amirullah, T Waris, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      }
+    ],
+    "cited_by": {
+      "table": [
+        {
+          "citations": {
+            "all": 488,
+            "since_2019": 398
+          }
+        },
+        {
+          "h_index": {
+            "all": 10,
+            "since_2019": 9
+          }
+        },
+        {
+          "i10_index": {
+            "all": 10,
+            "since_2019": 8
+          }
+        }
+      ],
+      "graph": [
+        {
+          "year": 2009,
+          "citations": 3
+        },
+        {
+          "year": 2010,
+          "citations": 8
+        },
+        {
+          "year": 2011,
+          "citations": 8
+        },
+        {
+          "year": 2012,
+          "citations": 3
+        },
+        {
+          "year": 2013,
+          "citations": 7
+        },
+        {
+          "year": 2014,
+          "citations": 7
+        },
+        {
+          "year": 2015,
+          "citations": 9
+        },
+        {
+          "year": 2016,
+          "citations": 8
+        },
+        {
+          "year": 2017,
+          "citations": 11
+        },
+        {
+          "year": 2018,
+          "citations": 25
+        },
+        {
+          "year": 2019,
+          "citations": 42
+        },
+        {
+          "year": 2020,
+          "citations": 55
+        },
+        {
+          "year": 2021,
+          "citations": 97
+        },
+        {
+          "year": 2022,
+          "citations": 109
+        },
+        {
+          "year": 2023,
+          "citations": 91
+        },
+        {
+          "year": 2024,
+          "citations": 3
+        }
+      ]
+    }
+  }

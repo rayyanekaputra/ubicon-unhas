@@ -15,7 +15,7 @@ const dataEngineer = [
       profil_img: require("/public/assets/profil/engineers 02.png"),
       nama_engineer: "Artia",
       posisi_engineer: "CMS Frontend",
-      research_engineer: "Computer Vision",
+      research_engineer: "Web Development",
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const dataEngineer = [
   ];
 const RendererEngineer = () => {
   return dataEngineer.map((item) =>{
-    console.log(item.id)
+
     return(
         <li className="engineer-show-li" key={item.id}>
       <div className="engineer-card">
@@ -49,6 +49,7 @@ const RendererEngineer = () => {
           <Image
             src={item.profil_img}
             fill
+            sizes="100%"
             style={{
               zIndex: "1",
               objectFit: "cover",

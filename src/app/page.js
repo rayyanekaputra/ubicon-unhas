@@ -4,6 +4,8 @@ import React, { useEffect, useState, useRef, Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import "@styles/home.scss";
+import "@styles/homeCBR.css";
+import "@styles/home-mobile.css";
 import bg from "@assets/img_hero_overlay.png";
 import bg_cta from "@assets/bg_cta.png";
 import { RendererResearch } from "@components/research/rendererResearch";
@@ -11,55 +13,60 @@ import { RendererResearch } from "@components/research/rendererResearch";
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 import RendererNews from "@components/news/rendererNews";
 
-//Foto-foto preview
-import previewBuNovy from "@assets/profil/profil bu novy.png";
-import previewPakKiki from "@assets/profil/profil pak kiki.png";
-import previewPakNiswar from "@assets/profil/profil pak niswar.png";
-import previewPakAdy from "@assets/profil/profil pak ady.png";
-import previewBuElly from "@assets/profil/profil bu elly.png";
-
-//lottie
-import Lottie from "lottie-react";
-import splashUbicon from "./LogoUbiconSplash.json";
 import Loading from "./loading";
 
 export default function Home() {
-  // https://shipshape.io/blog/wait-for-page-load-in-react/
-  const [playAnimation, setPlayAnimation] = useState(false);
-
-  // This will run one time after the component mounts
-  useEffect(() => {
-    const onPageLoad = () => {
-      setPlayAnimation(true);
-    };
-
-    // Check if the page has already loaded
-    if (document.readyState === "complete") {
-      onPageLoad();
-    } else {
-      window.addEventListener("load", onPageLoad);
-      // Remove the event listener when component unmounts
-      return () => window.removeEventListener("load", onPageLoad);
-    }
-  }, []);
-
   return (
     <>
-      {/* <div className={ `splash-screen ${playAnimation ? 'splash-screen-animate' : ''}`}> */}
-      <div
-        className={playAnimation ? "splash-screen-animate" : "splash-screen"}
-      >
-        {/* https://lottiereact.com/components/Lottie#getting-started */}
-        <Lottie
-          animationData={splashUbicon}
-          style={{
-            width: "72px",
-            height: "72px",
-            paddingRight: "8px",
-          }}
-        />
-        <h1>Welcome</h1>
-      </div>
+      <section className="heroCBR">
+        <div className="overlay-video" />
+        <video src="/assets/videos/video_bg.mp4" autoPlay muted loop />
+        <div className="infront-of-video">
+          <h2>CBR2 Meeting Kickoff</h2>
+          {/* https://react-type-animation.netlify.app/examples */}
+          <h1>
+            Real-time Malicious TLS Traffic Detection using Machine Learning Classifiers
+          </h1>
+          
+          <div className="heroCBR-footer-wrapper">
+            <div className="heroCBR-details">
+              <div className="heroCBR-details-text-icon-wrapper">
+                <Image
+                  src="/assets/icons/material-symbols_calendar-today-outline.svg"
+                  width={24}
+                  height={24}
+                />
+                <h2>
+                  <span>January 16th - 17th, </span>2023
+                </h2>
+              </div>
+              <div className="heroCBR-details-text-icon-wrapper">
+                <Image
+                  src="/assets/icons/material-symbols_location-on-outline-rounded.svg"
+                  width={24}
+                  height={24}
+                />
+                <h2>
+                  <span>Ubicon Laboratory</span> <br />
+                  Hasanuddin University
+                </h2>
+              </div>
+            </div>
+            <div className="heroCBR-cta">
+              <Link href="/">
+                <h2>Read More</h2>
+              </Link>
+              <Image
+                src="/assets/icons/material-symbols_arrow-forward-ios-rounded.svg"
+                width={24}
+                height={24}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* 
+      HERO NON-CBR
       <section
         className="hero"
         style={{
@@ -86,7 +93,7 @@ export default function Home() {
         <h1>Ubicon Lab</h1>
         <h2>Ubiquitous Computing & Networking Lab.</h2>
         <p>@HASANUDDIN UNIVERSITY </p>
-      </section>
+      </section> */}
 
       <div className="carousel-running-container">
         {/* infinite slider, duplikat supaya seamless */}
@@ -98,6 +105,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -108,6 +119,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -118,6 +133,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -128,6 +147,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -138,6 +161,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -148,6 +175,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -158,6 +189,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -168,6 +203,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -181,6 +220,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -191,6 +234,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -201,6 +248,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -211,6 +262,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -221,6 +276,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -231,6 +290,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -241,6 +304,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -251,6 +318,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -264,6 +335,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -274,6 +349,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -284,6 +363,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -294,6 +377,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -304,6 +391,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -314,6 +405,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -324,6 +419,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -334,6 +433,10 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
+                sizes="100%"
+                style={{
+                  objectFit: "cover", // cover, contain, none
+                }}
               />
             </div>
           </li>
@@ -359,7 +462,7 @@ export default function Home() {
             Get to know our lecturer, researcher, <br />
             and member of the clouds
           </p>
-          <Link href="/about" rel="noopener noreferrer" target="_blank">
+          <Link href="/about" rel="noopener noreferrer">
             <button>
               <p>Read more</p>
             </button>
@@ -369,19 +472,59 @@ export default function Home() {
           <div className="preview-img" id="ubicon-1">
             {/* size gambar ada di home.scss karena import static di atas:
             section.our-people .preview-img-wrapper img*/}
-            <Image src={previewBuNovy} alt="bu novy" />
+            <Image
+              src="/assets/profil/profil bu novy.png"
+              alt="bu novy"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
           <div className="preview-img" id="ubicon-2">
-            <Image src={previewPakKiki} alt="pak kiki" />
+            <Image
+              src="/assets/profil/profil pak kiki.png"
+              alt="pak kiki"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
           <div className="preview-img" id="head-of-ubicon">
-            <Image src={previewPakNiswar} alt="pak niswar" />
+            <Image
+              src="/assets/profil/profil pak niswar.png"
+              alt="pak niswar"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
           <div className="preview-img" id="ubicon-3">
-            <Image src={previewPakAdy} alt="pak ady" />
+            <Image
+              src="/assets/profil/profil pak ady.png"
+              alt="pak ady"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
           <div className="preview-img" id="ubicon-4">
-            <Image src={previewBuElly} alt="bu elly" />
+            <Image
+              src="/assets/profil/profil bu elly.png"
+              alt="bu elly"
+              fill
+              sizes="100%"
+              style={{
+                objectFit: "cover", // cover, contain, none
+              }}
+            />
           </div>
         </div>
       </section>
@@ -393,7 +536,7 @@ export default function Home() {
             <p className="p1">Read our latest news and stories in our blog!</p>
           </div>
 
-          <Link href="/blog" rel="noopener noreferrer" target="_blank">
+          <Link href="/blog" rel="noopener noreferrer">
             <button>
               <p>Read more</p>
             </button>
@@ -423,7 +566,11 @@ export default function Home() {
             }}
           >
             <h1>Join and explore the cloud with us</h1>
-            <Link href="https://www.instagram.com/ubicon_unhas/" passHref={true} rel="noopener noreferrer" target="_blank">
+            <Link
+              href="https://www.instagram.com/ubicon_unhas/"
+              passHref={true}
+              rel="noopener noreferrer"
+            >
               <button>
                 <p>Read more</p>
               </button>

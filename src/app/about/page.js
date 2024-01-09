@@ -18,7 +18,10 @@ const AboutUs = () => {
                 <Image
                   src="/assets/emoji/cloud-emoji.png"
                   fill
-                  objectFit="cover"
+                  sizes="100%"
+                  style={{
+                    objectFit: "cover"
+                  }}
                 />
               </div>
             </span>
