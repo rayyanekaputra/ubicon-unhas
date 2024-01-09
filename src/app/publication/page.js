@@ -10,6 +10,8 @@ export default function Publication() {
     setArticles(publicationList.articles);
   });
 
+ const sortedByYearArticles = [...articles].sort((a, b) => b.year - a.year)
+
   return (
     <>
       <section className="hero-publication">
@@ -21,10 +23,10 @@ export default function Publication() {
         </p>
       </section>
       <section className="content-publication">
-        <h3 className="publication-time-content">This Week</h3>
+        <h3 className="publication-time-content">Sorted by recent</h3>
         {/* Render your articles as needed */}
         <div className="articles">
-          {articles.map((article, index) => (
+          {sortedByYearArticles.map((article, index) => (
             <div className="article-detail-wrapper" key={index}>
               {/* Render individual article details */}
               <div className="article-detail-headings">
