@@ -1,71 +1,22 @@
-"use client";
-import React, { useEffect, useState} from "react";
-import { Metadata } from 'next'
-
 import "@styles/global-styles.scss";
 import Navbar from "@components/navigation/navbar/navbar";
 import Footer from "@components/navigation/footer/footer";
-import { Inter } from "next/font/google";
 
-//lottie
-import Lottie from "lottie-react";
-import splashUbicon from "./LogoUbiconSplash.json";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
-
+import SplashScreen from "./splash";
 
 // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object
 
-export const useMetadata = () => {
-  const [metadata, setMetadata] = useState({
-    title: 'UBICON',
-    description: 'Ubiquitous Computing & Networking Lab.',
-    metadataBase: new URL('https://ubicon.unhas.ac.id/'),
-  });
-  return metadata;
+export const metadata = {
+  title: 'UBICON LAB',
+  description: 'Ubiquitous Computing and Networking Lab',
+  metadataBase: new URL('https://ubicon.unhas.ac.id'),
+
 };
 export default function RootLayout({ children }) {
-
-  //Website loaded? kasih liat splashscreen --> simpan di tab browser (sessionStorage)
-  const [isSiteShown, setSiteShown] = useState(false);
-  const metadata = useMetadata();
-
-  useEffect(() => {
-    let hasSiteShown = sessionStorage.getItem("pertama kali?");
-
-    // Check if the value is null (key doesn't exist)
-    if (hasSiteShown === null) {
-      // Set the key "pertama kali?" in sessionStorage to indicate that the site has been shown
-      sessionStorage.setItem("pertama kali?", true);
-      // Update the state
-      setSiteShown(false);
-    } else {
-      // If the value is not null, it means the key exists in sessionStorage
-      setSiteShown(true);
-    }
-  }, []);
-
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en">
       <body>
-        <div className={isSiteShown ? "splashed" : "splash-screen"}>
-          {/* <div
-        className={isSiteShown ? "splash-screen-animate" : "splash-screen"}
-      > */}
-          {/* https://lottiereact.com/components/Lottie#getting-started */}
-          <Lottie
-            animationData={splashUbicon}
-            style={{
-              width: "72px",
-              height: "72px",
-              paddingRight: "8px",
-            }}
-          />
-          <h1>Welcome</h1>
-        </div>
+        <SplashScreen/>
         {children}
         <Navbar />
         <Footer />
