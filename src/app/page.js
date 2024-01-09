@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "@styles/home.scss";
 import "@styles/homeCBR.css";
+import "@styles/home-mobile.css";
 import bg from "@assets/img_hero_overlay.png";
 import bg_cta from "@assets/bg_cta.png";
 import { RendererResearch } from "@components/research/rendererResearch";
@@ -17,10 +18,53 @@ import Loading from "./loading";
 export default function Home() {
   return (
     <>
-    <section className="heroCBR">
-      <div> 
-      </div>
-    </section>
+      <section className="heroCBR">
+        <div className="overlay-video" />
+        <video src="/assets/videos/video_bg.mp4" autoPlay muted loop />
+        <div className="infront-of-video">
+          <h2>CBR2 Meeting Kickoff</h2>
+          {/* https://react-type-animation.netlify.app/examples */}
+          <h1>
+            Real-time Malicious TLS Traffic Detection using Machine Learning Classifiers
+          </h1>
+          
+          <div className="heroCBR-footer-wrapper">
+            <div className="heroCBR-details">
+              <div className="heroCBR-details-text-icon-wrapper">
+                <Image
+                  src="/assets/icons/material-symbols_calendar-today-outline.svg"
+                  width={24}
+                  height={24}
+                />
+                <h2>
+                  <span>January 16th - 17th, </span>2023
+                </h2>
+              </div>
+              <div className="heroCBR-details-text-icon-wrapper">
+                <Image
+                  src="/assets/icons/material-symbols_location-on-outline-rounded.svg"
+                  width={24}
+                  height={24}
+                />
+                <h2>
+                  <span>Ubicon Laboratory</span> <br />
+                  Hasanuddin University
+                </h2>
+              </div>
+            </div>
+            <div className="heroCBR-cta">
+              <Link href="/">
+                <h2>Read More</h2>
+              </Link>
+              <Image
+                src="/assets/icons/material-symbols_arrow-forward-ios-rounded.svg"
+                width={24}
+                height={24}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* 
       HERO NON-CBR
       <section
@@ -61,7 +105,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -75,7 +119,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -89,7 +133,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -103,7 +147,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -117,7 +161,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -131,7 +175,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -145,7 +189,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -159,7 +203,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -176,7 +220,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -190,7 +234,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -204,7 +248,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -218,7 +262,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -232,7 +276,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -246,7 +290,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -260,7 +304,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -274,7 +318,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -282,7 +326,6 @@ export default function Home() {
             </div>
           </li>
         </ul>
-
 
         <ul>
           <li>
@@ -292,7 +335,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -306,7 +349,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -320,7 +363,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -334,7 +377,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -348,7 +391,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -362,7 +405,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -376,7 +419,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -390,7 +433,7 @@ export default function Home() {
                 // pastikan sama dengan widthnya .logo-ubicon div BUKAN KOMPONEN Image
                 alt="Gambar Gedung Departemen"
                 fill
-                 sizes="100%"
+                sizes="100%"
                 style={{
                   objectFit: "cover", // cover, contain, none
                 }}
@@ -398,7 +441,6 @@ export default function Home() {
             </div>
           </li>
         </ul>
-
       </div>
 
       <section className="research-type">
