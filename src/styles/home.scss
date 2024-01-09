@@ -2,7 +2,7 @@ section.hero {
   // background-image: url("/src/assets/img_hero_overlay.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: cover;
+  background-size: center;
   padding: 150px 120px;
   margin-top: -40px;
   display: flex;
@@ -41,10 +41,13 @@ div.carousel-running-container {
   background-color: transparent;
   flex-direction: row;
   width: 100%;
-  
+
+  //HAPUS: hapus kalau sudah CBR
+  margin-top: -140px;
   //FIX 09 SEPT 2023: change from flex to inline-flex krn tabongkar ki setiap kali dari page lain
   display: inline-flex;
   column-gap: 24px;
+  z-index: 5 ;
 }
 div.carousel-running-container ul {
   display: flex;

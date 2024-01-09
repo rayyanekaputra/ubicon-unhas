@@ -1,0 +1,17 @@
+@media (max-width: 1024px){
+
+    * {
+        padding: 0px !important; 
+        margin: 0px !important;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        width: 100%;
+      }
+}

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
 //Color
 $primary-gray: #242424;
 $gray-0: white;
@@ -96,7 +98,8 @@ section{
 
 // Global custom .css scrollbar
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 8px;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-track {
@@ -108,7 +111,6 @@ section{
   background-color: #d6dee1;
   border-radius: 20px;
   border: 6px solid transparent;
-  background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
