@@ -20,7 +20,7 @@ const Navbar = () => {
     // https://stackoverflow.com/questions/69473259/how-to-show-or-hide-navbar-when-scroll-use-react-js
 
     if (typeof window !== "undefined") {
-      if (window.scrollY >= 80) {
+      if (window.scrollY >= 600) {
         setCheckScroll(false);
       } else {
         setCheckScroll(true);
@@ -53,7 +53,7 @@ const Navbar = () => {
       <div className="navbar-logo">
         {/* panggil import */}
         <Link href="/">
-          {lastScrollY <= 80 ? (
+          {lastScrollY <= 600 ? (
             <Image
               src="/assets/navbar/navbar-logo-white.png"
               alt="logo ubicon"
