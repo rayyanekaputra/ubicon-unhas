@@ -18,7 +18,7 @@ const Blog = () => {
       </div>
       <section className="blog-content">
         <h3 className="blog-time-content"> 
-          This Week
+          Sorted by recent
         </h3>
         <ul className="news-content-renderer">
           <Suspense fallback = {<div>Loading Renderer News</div>}>

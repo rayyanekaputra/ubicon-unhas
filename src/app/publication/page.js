@@ -17,9 +17,9 @@ export default function Publication() {
       <section className="hero-publication">
         <h1 className="hero-headings">Publication</h1>
         <p>
-          Read our latest news and
+          Discover our research papers
           <br />
-          stories in our blog!
+          and collaborate with us
         </p>
       </section>
       <section className="content-publication">

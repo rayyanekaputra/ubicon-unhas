@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "@styles/home.scss";
 import "@styles/homeCBR.css";
-import "@styles/home-mobile.css";
+
 import bg from "@assets/img_hero_overlay.png";
 import bg_cta from "@assets/bg_cta.png";
 import { RendererResearch } from "@components/research/rendererResearch";
@@ -20,9 +20,9 @@ export default function Home() {
     <>
       <section className="heroCBR">
         <div className="overlay-video" />
-        <video src="/assets/videos/video_bg.mp4" autoPlay muted loop />
+        {/* <video src="/assets/videos/video_bg.mp4" autoPlay muted loop /> */}
         <div className="infront-of-video">
-          <h2>CBR2 Meeting Kickoff</h2>
+          <h2>CBR2 Kickoff Meeting</h2>
           {/* https://react-type-animation.netlify.app/examples */}
           <h1>
             Real-time Malicious TLS Traffic Detection using Machine Learning Classifiers

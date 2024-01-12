@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "@styles/news/rendererNews.scss";
 import Link from "next/link";
 import Image from "next/image";
+import DOMPurify from "dompurify";
 
 export default function RendererNews() {
   const [data, setData] = useState(null);
@@ -48,50 +49,49 @@ export default function RendererNews() {
       <button onClick={handleShowLoading}> SHOW LOADING </button> 
       */}
 
-      {loading && (<>
-        <li className="news-content-list loading">
-          <div className="img-news-container"> </div>
-          <div className="news-content">
-            <div className="loading-box-text title"></div>
-            <div className="loading-box-text date"></div>
-            <div className="loading-box-text"></div>
-          </div>
-        </li>
-        <li className="news-content-list loading">
-          <div className="img-news-container"> </div>
-          <div className="news-content">
-            <div className="loading-box-text title"></div>
-            <div className="loading-box-text date"></div>
-            <div className="loading-box-text"></div>
-          </div>
-        </li>
-        <li className="news-content-list loading">
-          <div className="img-news-container"> </div>
-          <div className="news-content">
-            <div className="loading-box-text title"></div>
-            <div className="loading-box-text date"></div>
-            <div className="loading-box-text"></div>
-          </div>
-        </li>
-        <li className="news-content-list loading">
-          <div className="img-news-container"> </div>
-          <div className="news-content">
-            <div className="loading-box-text title"></div>
-            <div className="loading-box-text date"></div>
-            <div className="loading-box-text"></div>
-          </div>
-        </li>
-        <li className="news-content-list loading">
-          <div className="img-news-container"> </div>
-          <div className="news-content">
-            <div className="loading-box-text title"></div>
-            <div className="loading-box-text date"></div>
-            <div className="loading-box-text"></div>
-          </div>
-        </li>
-      </>
-        
-        
+      {loading && (
+        <>
+          <li className="news-content-list loading">
+            <div className="img-news-container"> </div>
+            <div className="news-content">
+              <div className="loading-box-text title"></div>
+              <div className="loading-box-text date"></div>
+              <div className="loading-box-text"></div>
+            </div>
+          </li>
+          <li className="news-content-list loading">
+            <div className="img-news-container"> </div>
+            <div className="news-content">
+              <div className="loading-box-text title"></div>
+              <div className="loading-box-text date"></div>
+              <div className="loading-box-text"></div>
+            </div>
+          </li>
+          <li className="news-content-list loading">
+            <div className="img-news-container"> </div>
+            <div className="news-content">
+              <div className="loading-box-text title"></div>
+              <div className="loading-box-text date"></div>
+              <div className="loading-box-text"></div>
+            </div>
+          </li>
+          <li className="news-content-list loading">
+            <div className="img-news-container"> </div>
+            <div className="news-content">
+              <div className="loading-box-text title"></div>
+              <div className="loading-box-text date"></div>
+              <div className="loading-box-text"></div>
+            </div>
+          </li>
+          <li className="news-content-list loading">
+            <div className="img-news-container"> </div>
+            <div className="news-content">
+              <div className="loading-box-text title"></div>
+              <div className="loading-box-text date"></div>
+              <div className="loading-box-text"></div>
+            </div>
+          </li>
+        </>
       )}
       {error && (
         <div>{`There is a problem fetching the post data - ${error}`}</div>
@@ -99,27 +99,43 @@ export default function RendererNews() {
 
       {/* https://twitter.com/asidorenko_/status/1692983047925235868 */}
       {data &&
-        data.map(({ id_news, judul, thumbnail, tanggal, konten }) => (
-          
-          <Link href={`/blog/posts/${id_news}`}>
-            
-            <li key={id_news} className="news-content-list">
-              <div className="img-news-container">
-                <Image src={thumbnail} alt={judul} fill sizes="100%" style={{
-                objectFit: "cover", // cover, contain, none
-              }}/>
-              </div>
-              <div className="news-content">
-                <h3>{judul}</h3>
-                <p className="date_p">{tanggal}</p>
-                <div className="truncate_brief">
-                  <p>{konten}</p>
+        data.map(({ id_news, judul, thumbnail, tanggal, konten }) => {
+          const sanitizedData = () => {
+            // Split the content into paragraphs
+            const paragraphs = DOMPurify.sanitize(konten).split('</p>');
+      
+            // Extract the first paragraph (excluding the closing </p> tag)
+            const firstParagraph = paragraphs[0].replace('<p>', '');
+      
+            return {
+              __html: firstParagraph,
+            };
+          };
+          return (
+            <Link href={`/blog/posts/${id_news}`}>
+              <li key={id_news} className="news-content-list">
+                <div className="img-news-container">
+                  <Image
+                    src={thumbnail}
+                    alt={judul}
+                    fill
+                    sizes="100%"
+                    style={{
+                      objectFit: "cover", // cover, contain, none
+                    }}
+                  />
                 </div>
-              </div>
-            </li>
-          </Link>
-          
-        ))}
+                <div className="news-content">
+                  <h3>{judul}</h3>
+                  <p className="date_p">{tanggal}</p>
+                  <div className="truncate_brief">
+                    <p dangerouslySetInnerHTML={sanitizedData()} />
+                  </div>
+                </div>
+              </li>
+            </Link>
+          );
+        })}
     </>
   );
 }
