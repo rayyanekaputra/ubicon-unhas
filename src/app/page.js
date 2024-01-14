@@ -53,7 +53,7 @@ export default function Home() {
               </div>
             </div>
             <div className="heroCBR-cta">
-              <Link href="/">
+              <Link href="/blog/posts/news-OmNM4TUihB8">
                 <h2>Read More</h2>
               </Link>
               <Image
