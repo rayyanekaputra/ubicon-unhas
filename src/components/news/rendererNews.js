@@ -23,7 +23,7 @@ export default function RendererNews() {
             `This is an HTTP error: The status is ${response.status}`
           );
         }
-        let actualData = await response.json();
+        let actualData = await response.json(); 
         let actualDataInside = actualData.data;
         setData(actualDataInside);
         setError(null);

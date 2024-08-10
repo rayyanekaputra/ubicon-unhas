@@ -19,50 +19,21 @@ export default function Home() {
   return (
     <>
       <section className="heroCBR">
-        <div className="overlay-video" />
-        {/* <video src="/assets/videos/video_bg.mp4" autoPlay muted loop /> */}
         <div className="infront-of-video">
-          <h2>CBR2 Kickoff Meeting</h2>
           {/* https://react-type-animation.netlify.app/examples */}
           <h1>
-            Real-time Malicious TLS Traffic Detection using Machine Learning Classifiers
+          4TH ASIA PACIFIC INTERNET ENGINEERING CAMP AT UNHAS
           </h1>
-          
-          <div className="heroCBR-footer-wrapper">
-            <div className="heroCBR-details">
-              <div className="heroCBR-details-text-icon-wrapper">
-                <Image
-                  src="/assets/icons/material-symbols_calendar-today-outline.svg"
-                  width={24}
-                  height={24}
-                />
-                <h2>
-                  <span>January 16th - 17th, </span>2023
-                </h2>
-              </div>
-              <div className="heroCBR-details-text-icon-wrapper">
-                <Image
-                  src="/assets/icons/material-symbols_location-on-outline-rounded.svg"
-                  width={24}
-                  height={24}
-                />
-                <h2>
-                  <span>Ubicon Laboratory</span> <br />
-                  Hasanuddin University
-                </h2>
-              </div>
-            </div>
-            <div className="heroCBR-cta">
-              <Link href="/blog/posts/news-OmNM4TUihB8">
-                <h2>Read More</h2>
+          <div className="heroCBR-cta">
+              <Link href="/blog/posts/news-FleFXbJYCBK">
+                <h2><span className="date-bold">August 12th-16th</span>, 2024</h2>
               </Link>
               <Image
-                src="/assets/icons/material-symbols_arrow-forward-ios-rounded.svg"
+                src="/assets/icons/material_arrow-bottom-left.svg"
                 width={24}
                 height={24}
               />
             </div>
-          </div>
         </div>
       </section>
       {/* 
